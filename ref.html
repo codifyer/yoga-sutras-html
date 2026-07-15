@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GX1XKWJQX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []; 
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GX1XKWJQX5');
+    </script>
+    <!-- Google tag (gtag.js) --> 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yoga Sutrā Notes - References</title>
+    <link rel="shortcut icon" href="storage/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <script>
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.documentElement.classList.add('dark');
+            document.addEventListener('DOMContentLoaded', () => document.body.classList.add('dark'));
+        }
+    </script>
+    <style>
+        .section-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 2rem 0 1rem 0;
+            text-align: left;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+        .ref-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            padding: 1.25rem;
+            margin-bottom: 1.25rem;
+            box-shadow: var(--shadow-sm);
+            text-align: left;
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+        }
+        .ref-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        .ref-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+        .ref-author {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+        }
+        .ref-desc {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .ref-badge {
+            display: inline-block;
+            background-color: var(--accent-bg);
+            color: var(--accent);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+        .ref-links {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .ref-link {
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            border: 1px solid var(--accent);
+            padding: 0.35rem 0.75rem;
+            border-radius: 6px;
+            transition: all var(--transition-fast);
+        }
+        .ref-link:hover {
+            background-color: var(--accent);
+            color: #ffffff;
+        }
+        .ref-card.book-card {
+            display: flex;
+            gap: 1.25rem;
+        }
+        .ref-book-img {
+            width: 90px;
+            height: auto;
+            border-radius: 0.375rem;
+            object-fit: contain;
+            flex-shrink: 0;
+            align-self: flex-start;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+        }
+        .ref-card-content {
+            flex: 1;
+        }
+        @media (max-width: 480px) {
+            .ref-card.book-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="app-container">
+    <header class="sticky-header">
+        <a href="index.html" class="header-title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 1.5rem; height: 1.5rem;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+            Yoga Sutrā Notes
+        </a>
+        <div class="header-controls">
+            <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle Theme">
+                <svg class="theme-toggle-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                </svg>
+                <svg class="theme-toggle-light" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main style="flex: 1; padding: 1.5rem 1.25rem; max-width: 700px; margin: 0 auto; width: 100%;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1.5rem;">
+           
+            <h1 class="font-eczar" style="font-size: 2rem; margin: 0;">References</h1>
+        </div>
+
+        <h2 class="section-title">Recommended Books</h2>
+
+        <!-- Book 1 -->
+        <article class="ref-card book-card">
+            <img src="storage/srisri-pys.jpg" alt="Patanjali Yoga Sutras Book Cover" class="ref-book-img">
+            <div class="ref-card-content">
+                <h3 class="ref-title">
+                    Patanjali Yoga Sutras: The Heart of Yoga
+                    <span class="ref-badge">Recommended</span>
+                </h3>
+                <div class="ref-author">by Gurudev Sri Sri Ravi Shankarji</div>
+                <p class="ref-desc">
+                    This is a must-have book for those seeking to understand Patanjali's Yoga Sutras. 
+                    Gurudev's explanations are lucid and accurate without sacrificing any details. The numerous anecdotes included make it engaging and enjoyable to read. It also features Q&A sections addressing frequently asked questions. The sutra translations on this site are largely sourced from this book. However, literal translations are simply not enough to grasp the true depth and nuances of the sutras, so purchasing the book is highly recommended.
+                </p>
+                <div class="ref-links">
+                    <a href="https://www.amazon.in/Patanjali-Yoga-Sutras-Ravi-Shankar-ebook/dp/B09253R48H" target="_blank" rel="noopener" class="ref-link">Amazon India</a>
+                    <a href="https://artofliving.store/products/patanjali-yoga-sutras-english-1?srsltid=AfmBOopq-YxQ8sQxCBs3uCIir3d3eG4B42SCg-8wTlJoPJt0iTCahhkX" target="_blank" rel="noopener" class="ref-link">Art of Living Store</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- Book 2 -->
+        <article class="ref-card book-card">
+            <img src="storage/sss-ys.jpg" alt="The Yoga Sutras of Patanjali Book Cover" class="ref-book-img">
+            <div class="ref-card-content">
+                <h3 class="ref-title">The Yoga Sutras of Patanjali</h3>
+                <div class="ref-author">by Sri Swami Satchidananda</div>
+                <p class="ref-desc">
+                    This is another well-respected and extremely popular commentary on the Yoga Sutras, especially widely read and appreciated in the West.
+                </p>
+                <div class="ref-links">
+                    <a href="https://www.amazon.in/Yoga-Sutras-Patanjali-Commentary-Satchidananda-ebook/dp/B009WETVA0" target="_blank" rel="noopener" class="ref-link">Amazon India</a>
+                </div>
+            </div>
+        </article>
+
+        <h2 class="section-title">Online Resources</h2>
+
+
+        <!-- Link 2 -->
+        <article class="ref-card">
+            <h3 class="ref-title">Patanjali Yoga Sutra Translation Portal</h3>
+            <p class="ref-desc">
+                Another comprehensive site offering individual word-by-word Sanskrit translations, breaks, commentary in multiple languages, and audio clips reciting each sutra.
+            </p>
+            <div class="ref-links">
+                <a href="https://patanjaliyogasutra.in/" target="_blank" rel="noopener" class="ref-link">Visit Website</a>
+            </div>
+        </article>
+
+        <!-- Link 3 -->
+        <article class="ref-card">
+            <h3 class="ref-title">Swami Vivekananda's Raja Yoga Commentary</h3>
+            <p class="ref-desc">
+                The full historic text of Swami Vivekananda's lectures and commentary on Patanjali's Yoga Aphorisms is hosted online and accessible in full.
+            </p>
+            <div class="ref-links">
+                <a href="https://en.wikisource.org/wiki/The_Complete_Works_of_Swami_Vivekananda/Volume_1/Raja-Yoga/Patanjali's_Yoga_Aphorisms_-_Concentration:_Its_Spiritual_Uses" target="_blank" rel="noopener" class="ref-link">Read on Wikisource</a>
+            </div>
+        </article>
+    </main>
+</div>
+
+<script>
+    function toggleTheme() {
+        const isDark = document.body.classList.toggle('dark');
+        document.documentElement.classList.toggle('dark', isDark);
+        localStorage.setItem('darkMode', isDark);
+    }
+</script>
+</body>
+</html>

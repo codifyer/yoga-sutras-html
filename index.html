@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GX1XKWJQX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []; 
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GX1XKWJQX5');
+    </script>
+    <!-- Google tag (gtag.js) --> 
+     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yoga Sutrā Notes</title>
+    <link rel="shortcut icon" href="storage/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <script>
+        // Apply dark mode class immediately to avoid layout flash
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.documentElement.classList.add('dark');
+            document.addEventListener('DOMContentLoaded', () => document.body.classList.add('dark'));
+        }
+    </script>
+</head>
+<body>
+<div class="app-container">
+    <header class="sticky-header">
+        <a href="index.html" class="header-title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 1.5rem; height: 1.5rem;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+            Yoga Sutrā Notes
+        </a>
+        <div class="header-controls">
+            <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle Theme">
+                <svg class="theme-toggle-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                </svg>
+                <svg class="theme-toggle-light" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem 1rem; text-align: center;">
+        <div class="font-eczar" style="font-size: 3.5rem; line-height: 1; margin-bottom: 0.5rem; color: var(--accent);">ॐ</div>
+        <div class="font-ephesis" style="font-size: 3rem; line-height: 1.2; color: var(--text-secondary);">Welcome to</div>
+        <h1 class="font-bubblegum" style="font-size: 2.25rem; font-weight: normal; margin-bottom: 0.75rem; letter-spacing: 0.05em; color: var(--text-primary);">yoga-sutra-notes.in</h1>
+        <p style="color: var(--text-secondary); max-width: 480px; margin: 0 auto 2rem; font-size: 1.1rem; line-height: 1.5;">A site dedicated to Patanjali Yoga Sutras</p>
+
+        <div style="margin-bottom: 2rem;">
+            <img src="storage/meditation.svg" alt="Meditation Illustration" style="width: 140px; height: auto; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));">
+        </div>
+
+        <ul class="card-list" style="width: 100%; max-width: 500px;">
+            <li class="card-item">
+                <a href="prayer.html" class="card-link">🔗 Prayer</a>
+                <div class="card-desc">Traditional invocation for study</div>
+            </li>
+            <li class="card-item">
+                <a href="sutras.html" class="card-link">🔗 Patanjali Yoga Sutras</a>
+                <div class="card-desc">Verses, translations, notes ...</div>
+            </li>
+            <li class="card-item">
+                <a href="ref.html" class="card-link">🔗 References</a>
+                <div class="card-desc">Books, online links ...</div>
+            </li>
+        </ul>
+    </main>
+</div>
+
+<script>
+    function toggleTheme() {
+        const isDark = document.body.classList.toggle('dark');
+        document.documentElement.classList.toggle('dark', isDark);
+        localStorage.setItem('darkMode', isDark);
+    }
+</script>
+</body>
+</html>

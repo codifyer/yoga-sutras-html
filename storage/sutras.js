@@ -1,0 +1,1747 @@
+window.sutrasData = [
+    {
+        "title": "Part 1: Samādhi Pāda (51)",
+        "sections": [
+            {
+                "title": "The Discipline of Yoga[1-4]",
+                "verses": [
+                    {
+                        "id": "1.1",
+                        "title": "",
+                        "sanskrit": "अथ योगानुशासनम्",
+                        "transliteration": "atha yogānushāsanam",
+                        "translation": "Now, (we look into) the discipline of yoga.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.2",
+                        "title": "What is Yoga?",
+                        "sanskrit": "योगश्चित्तवृत्तिनिरोधः",
+                        "transliteration": "yogaś-citta-vṛtti-nirodhaḥ",
+                        "translation": "Yoga is restraining the modulations of the mind.",
+                        "comments": "चित्त / citta, mind, also translates as consciousness"
+                    },
+                    {
+                        "id": "1.3",
+                        "title": "",
+                        "sanskrit": "तदा द्रष्टु: स्वरुपेSवस्थानम्",
+                        "transliteration": "tadā draṣṭuḥ svarupe'vasthānam",
+                        "translation": "Then, (when the mind is restrained), (one) abides in the nature of the seer.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.4",
+                        "title": "",
+                        "sanskrit": "वृत्तिसारूप्यम् इतरत्र",
+                        "transliteration": "vṛtti-sārūpyam itaratra",
+                        "translation": "At other times, there is identification with the modulations of the mind.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Modulations of the Mind[5-11]",
+                "verses": [
+                    {
+                        "id": "1.5",
+                        "title": "",
+                        "sanskrit": "वृत्तयः पञ्चतय्यः क्लिष्टाSक्लिष्टा:",
+                        "transliteration": "vṛttayaḥ pañcatayyaḥ kliṣṭā'kliṣṭā:",
+                        "translation": "The modulations are of five types, which could express themseleves as problematic or non-problematic.",
+                        "comments": "for e.g. memory is a modulation and some memories could be painful while others are not."
+                    },
+                    {
+                        "id": "1.6",
+                        "title": "The Five Modulations",
+                        "sanskrit": "प्रमाणविपर्ययविकल्पनिद्रास्मृतयः",
+                        "transliteration": "pramāṇa-viparyaya-vikalpa-nidrā-smṛtayaḥ",
+                        "translation": "The five modulations are",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.7",
+                        "title": "Pramāṇa - Proof / Logic",
+                        "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि",
+                        "transliteration": "pratyakṣā-anumānā-agamāḥ pramāṇāni",
+                        "translation": "Pramāṇa (proof/logic) is sought in three ways",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.8",
+                        "title": "Viparyaya - Wrong Knowledge",
+                        "sanskrit": "विपर्ययो मिथ्याज्ञानम् अतद्रूपप्रतिष्ठम्",
+                        "transliteration": "viparyayo mithyājñānam atadrūpapratiṣṭham",
+                        "translation": "Viparyaya is incorrect understanding, when there is a gap between perception of the reality.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.9",
+                        "title": "Vikalpa - Imagination",
+                        "sanskrit": "शब्दज्ञानानुपाती वस्तुशून्यो विकल्पः",
+                        "transliteration": "śabda-jñānānupātī vastu-śūnyo vikalpaḥ",
+                        "translation": "Vikalpa stands for words (or ideas/thoughts) which have no corresponding objects. (Imagination, fantasies, baseless fears)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.10",
+                        "title": "Nidra - Sleep",
+                        "sanskrit": "अभावप्रत्ययालम्बना वृत्तिर्निद्रा",
+                        "transliteration": "abhāva-pratyayālambanā vṛttir-nidrā",
+                        "translation": "Nidrā / sleep is when mind is void/empty (no content)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.11",
+                        "title": "Smriti - Memory",
+                        "sanskrit": "अनुभूतविषयासंप्रमोष: स्मृतिः",
+                        "transliteration": "anubhūta-viṣayā-saṃpramoṣa: smṛtiḥ",
+                        "translation": "Memory is inability to let go of past experiences.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Abhyāsa & Vairāgya[12-16]",
+                "verses": [
+                    {
+                        "id": "1.12",
+                        "title": "",
+                        "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः",
+                        "transliteration": "abhyāsa-vairāgyābhyāṃ tannirodhaḥ",
+                        "translation": "The modulations can be restrained by अभ्यास / abhyāsa (practice) and वैराग्य / vairāgya (dispassion).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.13",
+                        "title": "Abhyāsa - Practice",
+                        "sanskrit": "तत्र स्थितौ यत्नोऽभ्यास:",
+                        "transliteration": "tatra sthitau yatno'bhyāsaḥ",
+                        "translation": "Abhyāsa (practice) is the effort to be established in yoga (or in the seer).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.14",
+                        "title": "",
+                        "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
+                        "transliteration": "sa tu dīrghakāla-nairantarya-satkārā-sevito dṛḍhabhūmiḥ",
+                        "translation": "When practice is done over a long period of time, without a break and with a sense of respect, then you get firmly grounded in it.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.15",
+                        "title": "Vairāgya - Dispassion",
+                        "sanskrit": "दृष्टानुश्रविकविषयवितृष्णस्य वशीकारसंज्ञा वैराग्यम्",
+                        "transliteration": "dṛṣṭā-nuśravika-viṣaya-vitṛṣṇasya vaśīkāra-saṃjñā vairāgyam",
+                        "translation": "Dispassion is having a say over the thirst that arises from sense objects, either experienced by oneself or heard from others.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.16",
+                        "title": "",
+                        "sanskrit": "तत्परं पुरुषख्यातेर्गुणवैतृष्ण्यम्",
+                        "transliteration": "tatparaṃ puruṣa-khyāter-guṇa-vaitṛṣṇyam",
+                        "translation": "Higher than that (dispassion) is the centeredness that comes from knowing the glory of the Self.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Types of Samādhi[17-23]",
+                "verses": [
+                    {
+                        "id": "1.17",
+                        "title": "",
+                        "sanskrit": "वितर्कविचारानन्दास्मितारूपानुगमात् संप्रज्ञातः",
+                        "transliteration": "vitarka-vicār-ānand-āsmitā-rūp-ānugamāt saṃprajñātaḥ",
+                        "translation": "(Samādhi) with awareness can happen through logic, thoughts, bliss or sense of 'I am'",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.18",
+                        "title": "",
+                        "sanskrit": "विरामप्रत्ययाभ्यासपूर्व: संस्कारशेषोSन्यः",
+                        "transliteration": "virāma-pratyay-ābhyāsa-pūrvaḥ saṃskāra-śeṣo'nyaḥ",
+                        "translation": "The mind comes to state of rest by the practices done earlier (in this or previous lives) and in this state, only residual impressions remain. This is another type of samādhi (without awareness)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.19",
+                        "title": "",
+                        "sanskrit": "भवप्रत्ययो विदेहप्रकृतिलयानाम्",
+                        "transliteration": "bhavapratyayo videha-prakṛti-layānām",
+                        "translation": "For those who are immersed in nature or (are) without a body, the world is the content of the mind.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.20",
+                        "title": "",
+                        "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
+                        "transliteration": "śraddhā-vīrya-smṛti-samādhi-prajñā-pūrvaka itareṣām",
+                        "translation": "Other ways to obtain samādhi are through faith, valor, memory of your origin and awareness of a previous experience of samādhi.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.21",
+                        "title": "",
+                        "sanskrit": "तीव्रसंवेगानाम् आसन्न:",
+                        "transliteration": "tīvrasaṃvegānām āsannaḥ",
+                        "translation": "Through intensity of practice, it (samādhi) is expedited.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.22",
+                        "title": "",
+                        "sanskrit": "मृदुमध्याधिमात्रत्वात् ततोSपि विशेषः",
+                        "transliteration": "mṛdu-madhy-ādhimātratvāt tato'pi viśeṣaḥ",
+                        "translation": "Even among that (intensity of practice), it is qualified as mild, medium or intense.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.23",
+                        "title": "",
+                        "sanskrit": "ईश्वरप्रणिधानाद्वा",
+                        "transliteration": "īśvarapraṇidhānādvā",
+                        "translation": "Or (one can achieve samādhi) by surrendering to the Divine (īśvarā)",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Who is God[24-29]",
+                "verses": [
+                    {
+                        "id": "1.24",
+                        "title": "",
+                        "sanskrit": "क्लेशकर्मविपाकाशयैरपरामृष्ट: पुरुषविशेष ईश्वरः",
+                        "transliteration": "kleśa-karma-vipāk-āśayair-aparāmṛṣṭa: puruṣa-viśeṣa īśvaraḥ",
+                        "translation": "Divinity is that special consciousness which is untouched by misery (kleśa), action/impressions (karma), fruit of actions (vipākā) and desires (latent and manifest)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.25",
+                        "title": "",
+                        "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्",
+                        "transliteration": "tatra niratiśayaṃ sarvajña-bījam",
+                        "translation": "The seed of all knowingness abides in that (Lordship)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.26",
+                        "title": "",
+                        "sanskrit": "पूर्वेषाम् अपि गुरुः कालेनानवच्छेदात्",
+                        "transliteration": "pūrveṣām api guruḥ kālenānavacchedāt",
+                        "translation": "That (Lordship) is the Guru for those who came before too, as it is unobstructed by time.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.27",
+                        "title": "Om (ॐ)",
+                        "sanskrit": "तस्य वाचकः प्रणवः",
+                        "transliteration": "tasya vācakaḥ praṇavaḥ",
+                        "translation": "That is addressed as Om (ॐ)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.28",
+                        "title": "",
+                        "sanskrit": "तज्जपस्तदर्थभावनम्",
+                        "transliteration": "taj-japas-tad-artha-bhāvanam",
+                        "translation": "Its repetition and feeling its meaning.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.29",
+                        "title": "",
+                        "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
+                        "transliteration": "tataḥ pratyak-cetan-ādhigamo'pyantarāy-ābhāvaśca",
+                        "translation": "From that (repetition of Om(ॐ) and feeling its meaning) is gained the knowledge of consciousness and the destruction of obstacles.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Obstacles on the Path[30-31]",
+                "verses": [
+                    {
+                        "id": "1.30",
+                        "title": "The Nine Obstacles",
+                        "sanskrit": "व्याधिस्त्यानसंशयप्रमादालस्याविरतिभ्रान्तिदर्शनालब्धभूमिकत्वानवस्थितत्वानि चित्तविक्षेपास्तेऽन्तरायाः",
+                        "transliteration": "vyādhi-styāna-saṃśaya-pramād-ālasy-āvirati-bhrāntidarśan-ālabdhabhūmikatv-ānavasthitatvāni citta-vikṣepāste'ntarāyāḥ",
+                        "translation": "The obstacles or distractions in the practice of Yoga are:",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.31",
+                        "title": "",
+                        "sanskrit": "दुःखदौर्मनस्याङ्गमेजयत्वश्वासप्रश्वासा विक्षेपसहभुवः",
+                        "transliteration": "duḥkha-daurmanasy-āṅgamejayatva-śvāsa-praśvāsā vikṣepa-sahabhuvaḥ",
+                        "translation": "(The following) manifest along with the obstacles:",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Overcoming Obstacles[32-39]",
+                "verses": [
+                    {
+                        "id": "1.32",
+                        "title": "",
+                        "sanskrit": "तत्प्रतिषेधार्थमेकतत्त्वाभ्यासः",
+                        "transliteration": "tat-pratiṣedhārtham-eka-tattv-ābhyāsaḥ",
+                        "translation": "To counter these (obstacles), practise one principle. (एकतत्त्वभ्यासः / ekatattvabhyāsaḥ)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.33",
+                        "title": "",
+                        "sanskrit": "मैत्रीकरुणामुदितोपेक्षणां सुखदुःखपुण्यापुण्यविषयाणां भावनातश्चित्तप्रसादनम्",
+                        "transliteration": "maitrī-karuṇā-mudit-opekṣaṇāṃ sukha-duḥkha-puṇy-āpuṇya-viṣayāṇāṃ bhāvanātaś-citta-prasādanam",
+                        "translation": "We attain a pleasant state of mind by cultivating feelings of",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.34",
+                        "title": "",
+                        "sanskrit": "प्रच्छर्दनविधारणाभ्यां वा प्राणस्य",
+                        "transliteration": "pracchardana-vidhāraṇābhyāṃ vā prāṇasya",
+                        "translation": "Or by breaking and elongating the flow of prāṇa (breath / life force)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.35",
+                        "title": "",
+                        "sanskrit": "विषयवती वा प्रवृत्तिरुत्पन्ना मनसः स्थितिनिबन्धिनी",
+                        "transliteration": "viṣayavatī vā pravṛttir-utpannā manasaḥ sthiti-nibandhinī",
+                        "translation": "Or by arresting (holding) the mind in that state which arises through contact with the sense objects.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.36",
+                        "title": "",
+                        "sanskrit": "विशोका वा ज्योतिष्मती",
+                        "transliteration": "viśokā vā jyotiṣmatī",
+                        "translation": "Or by the sorrow-less state attained through the glowing intellect (ज्योतिष्मती / jyotiṣmatī)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.37",
+                        "title": "",
+                        "sanskrit": "वीतरागविषयं वा चित्तम्",
+                        "transliteration": "vītarāgaviṣayaṃ vā cittam",
+                        "translation": "Or by remembering the one who is devoid of craving.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.38",
+                        "title": "",
+                        "sanskrit": "स्वप्ननिद्राज्ञानालम्बनं वा",
+                        "transliteration": "svapna-nidrā-jñān-ālambanaṃ vā",
+                        "translation": "Or through the knowledge of sleep and dreams.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.39",
+                        "title": "",
+                        "sanskrit": "यथाभिमतध्यानाद्वा",
+                        "transliteration": "yath-ābhimata-dhyānād-vā",
+                        "translation": "Or by meditation according to one's liking.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "The Fruits of the Practice[40-51]",
+                "verses": [
+                    {
+                        "id": "1.40",
+                        "title": "",
+                        "sanskrit": "परमाणु परममहत्त्वान्तोऽस्य वशीकारः",
+                        "transliteration": "paramāṇu paramamahattvānto'sya vaśīkāraḥ",
+                        "translation": "One gains control over the smallest as well as the largest.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.41",
+                        "title": "",
+                        "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनतासमापत्तिः",
+                        "transliteration": "kṣīṇa-vṛtter-abhijātasy-eva maṇer-grahītṛ-grahaṇa-grāhyeṣu tat-stha-tad-añjanatā-samāpattiḥ",
+                        "translation": "When the modulations of the mind are diminished, it becomes like a polished transparent crystal and alignment (samāpattiḥ) is established between the perceiver, perception and the object of perception.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.42",
+                        "title": "",
+                        "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
+                        "transliteration": "tatra śabdārtha-jñāna-vikalpaiḥ saṃkīrṇā savitarkā samāpattiḥ",
+                        "translation": "That state when the gap between the word, its meaning and its experience, becomes insignificant, is called savitarkā samāpattiḥ - alignment with special logic.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.43",
+                        "title": "",
+                        "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
+                        "transliteration": "smṛtipariśuddhau svarūpaśūnyevārthamātranirbhāsā nirvitarkā",
+                        "translation": "When the memory (latent impressions) is purified, the \"I\" seems as if void and only \"am\" of the \"I am\" exists, it is called nirvitarkā samāpattiḥ.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.44",
+                        "title": "",
+                        "sanskrit": "एतयैव सविचारा निर्विचारा च सूक्ष्मविषया व्याख्याता",
+                        "transliteration": "etayaiva savicārā nirvicārā ca sūkṣmaviṣayā vyākhyātā",
+                        "translation": "When the word-meaning-experience is about subtle objects, then savicārā and nirvicārā samāpatti are similarly explained",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.45",
+                        "title": "",
+                        "sanskrit": "सूक्ष्मविषयत्वं चालिङ्गपर्यवसानम्",
+                        "transliteration": "sūkṣma-viṣayatvaṃ cāliṅga-paryavasānam",
+                        "translation": "And the realm of these subtle objects extends all the way up to the Unmanifest.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.46",
+                        "title": "",
+                        "sanskrit": "ता एव सबीजः समाधिः",
+                        "transliteration": "tā eva sabījaḥ samādhiḥ",
+                        "translation": "All of these (mentioned above) are samādhi with a seed (sabījah samādhi).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.47",
+                        "title": "",
+                        "sanskrit": "निर्विचारवैशारद्येऽध्यात्मप्रसादः",
+                        "transliteration": "nirvicāra-vaiśāradye'dhyātma-prasādaḥ",
+                        "translation": "Of these, when one attains proficiency in nirvicāra samādhi, that brings spiritual fulfillment.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.48",
+                        "title": "",
+                        "sanskrit": "ऋतम्भरा तत्र प्रज्ञा",
+                        "transliteration": "ṛtambharā tatra prajñā",
+                        "translation": "In such a state, the consciousness is filled with awareness of truth (intuition)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.49",
+                        "title": "",
+                        "sanskrit": "श्रुतानुमानप्रज्ञाभ्यामन्यविषया विशेषार्थत्वात्",
+                        "transliteration": "śrut-ānumāna-prajñābhyām-anya-viṣayā viśeṣ-ārthatvāt",
+                        "translation": "The awareness (or knowledge) that comes from such a state is special compared to knowledge arising from the senses or the intellect because it is based on a different source (spiritual fulfillment)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.50",
+                        "title": "",
+                        "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी",
+                        "transliteration": "tajjaḥ saṃskāro'nyasaṃskārapratibandhī",
+                        "translation": "The impressions born of such samādhi overrule the impressions generated from other experiences.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "1.51",
+                        "title": "",
+                        "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
+                        "transliteration": "tasyāpi nirodhe sarvanirodhānnirbījaḥ samādhiḥ",
+                        "translation": "When such impressions (born of samādhi) are eliminated, then, everything having been restrained, seedless (nirbījah) samādhi results.",
+                        "comments": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2: Sadhāna Pāda (55)",
+        "sections": [
+            {
+                "title": "Kriyā Yoga[1-2]",
+                "verses": [
+                    {
+                        "id": "2.1",
+                        "title": "",
+                        "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः",
+                        "transliteration": "tapaḥ-svādhyāy-eśvara-praṇidhānāni kriyāyogaḥ",
+                        "translation": "Endurance, self-study and surrender to the Divine, constitutes the yoga of action (Kriyā Yoga).",
+                        "comments": "Kriyā Yoga is also part of Niyamās (2.32)"
+                    },
+                    {
+                        "id": "2.2",
+                        "title": "",
+                        "sanskrit": "समाधिभावनार्थः क्लेशतनूकरणार्थश्च",
+                        "transliteration": "samādhi-bhāvanārthaḥ kleśa-tanū-karaṇārthaś-ca",
+                        "translation": "(The purpose of Kriyā Yoga is) to bring about samādhi and to minimize the afflictions or miseries.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Types of Miseries[3-9]",
+                "verses": [
+                    {
+                        "id": "2.3",
+                        "title": "",
+                        "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः (पञ्च) क्लेशाः",
+                        "transliteration": "avidy-āsmitā-rāga-dveṣ-ābhiniveśāḥ (pañca) kleśāḥ",
+                        "translation": "The five miseries are:",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.4",
+                        "title": "Avidyā - Ignorance (1)",
+                        "sanskrit": "अविद्याक्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
+                        "transliteration": "avidyā-kṣetram-uttareṣāṃ prasupta-tanu-vicchinn-odārāṇām",
+                        "translation": "Ignorance is the source of all other miseries. They can be in four stages: 1. dormant 2. weakened  3. occasional 4. very active.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.5",
+                        "title": "Avidyā - Ignorance (2)",
+                        "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
+                        "transliteration": "anity-āśuci-duḥkh-ānātmasu nitya-śuci-sukh-ātma-khyātir-avidyā",
+                        "translation": "Ignorance is mistaking the impermanent for the permanent, the impure for the pure, that which brings misery for that which brings happiness and non-Self for the Self.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.6",
+                        "title": "Asmitā - I-ness",
+                        "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
+                        "transliteration": "dṛg-darśana-śaktyor-ekātmat-ev-āsmitā",
+                        "translation": "When the seer is lost in the power of the scenery, a limited sense of \"I\" results.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.7",
+                        "title": "Rāga - Craving",
+                        "sanskrit": "सुखानुशयी रागः",
+                        "transliteration": "sukh-ānuśayī rāgaḥ",
+                        "translation": "Craving is the attraction to pleasure.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.8",
+                        "title": "Dveṣa - Aversion",
+                        "sanskrit": "दुःखानुशयी द्वेषः",
+                        "transliteration": "duḥkh-ānuśayī dveṣaḥ",
+                        "translation": "Aversion is the repulsion from sorrow.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.9",
+                        "title": "Abhiniveśa - Fear",
+                        "sanskrit": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः",
+                        "transliteration": "svarasavāhī viduṣo'pi tathārūḍho'bhiniveśaḥ",
+                        "translation": "Even in the wise, there is an ever flowing, firmly established fear of loss or death.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Eliminating the Cause of Misery[10-11]",
+                "verses": [
+                    {
+                        "id": "2.10",
+                        "title": "",
+                        "sanskrit": "ते प्रतिप्रसवहेयाः सूक्ष्माः",
+                        "transliteration": "te prati-prasava-heyāḥ sūkṣmāḥ",
+                        "translation": "When these (kleśās) are in subtle form, they can be dealt with by resolving them into their source.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.11",
+                        "title": "",
+                        "sanskrit": "ध्यानहेयास्तद्वृत्तयः",
+                        "transliteration": "dhyāna-heyās-tad-vṛttayaḥ",
+                        "translation": "Their modifications are destroyed by meditation.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Karma[12-16]",
+                "verses": [
+                    {
+                        "id": "2.12",
+                        "title": "",
+                        "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
+                        "transliteration": "kleśamūlaḥ karm-āśayo dṛṣṭ-ādṛṣṭa-janma-vedanīyaḥ",
+                        "translation": "These (five) miseries cause the stockpile of impressions (karmā) which has to be experienced in the current or future lives.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.13",
+                        "title": "",
+                        "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
+                        "transliteration": "sati mūle tad-vipāko jāty-āyur-bhogāḥ",
+                        "translation": "As long as those kleśās (miseries) remain as the root, they will keep producing three consequences - birth, span of life and experiences in that life.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.14",
+                        "title": "",
+                        "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
+                        "transliteration": "te hlāda-paritāpa-phalāḥ puṇy-āpuṇya-hetutvāt",
+                        "translation": "These consequences (birth, lifespan and experiences) give joy or misery based on merit or demerit.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.15",
+                        "title": "",
+                        "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
+                        "transliteration": "pariṇāma-tāpa-saṁskāra-duḥkhair-guṇa-vṛtti-virodhāc-ca duḥkham-eva sarvaṁ vivekinaḥ",
+                        "translation": "Since all these experiences lead to more consequences, anxiety and impressions, and the qualities of nature (guṇās) contradict each other, a wise, discriminating person, sees all wordily experiences as painful.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.16",
+                        "title": "",
+                        "sanskrit": "हेयं दुःखमनागतम्",
+                        "transliteration": "heyaṁ duḥkham-anāgatam",
+                        "translation": "The misery which is yet to come is worth avoiding.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "The Scenery and the Seer[17-27]",
+                "verses": [
+                    {
+                        "id": "2.17",
+                        "title": "",
+                        "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
+                        "transliteration": "draṣṭṛdṛśyayoḥ saṁyogo heyahetuḥ",
+                        "translation": "The cause of pain, which is to be avoided, is forgetting that one's Self is separate from the scenery.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.18",
+                        "title": "",
+                        "sanskrit": "प्रकाशक्रियास्थितिशीलं भूतेन्द्रियात्मकं भोगापवर्गार्थं दृश्यम्",
+                        "transliteration": "prakāśa-kriyā-sthiti-śīlaṁ bhūt-endriy-ātmakaṁ bhog-āpavarg-ārthaṁ dṛśyam",
+                        "translation": "The scenery exhibits three characteristics – luminosity, activity and inertia. It is of the nature of the five elements and the senses. The scenery is meant for experience and liberation.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.19",
+                        "title": "",
+                        "sanskrit": "विशेषाविशेषलिङ्गमात्रालिङ्गानि गुणपर्वाणि",
+                        "transliteration": "viśeṣ-āviśeṣa-liṅga-ṁātr-āliṅgāni guṇaparvāṇi",
+                        "translation": "There are four stages of the qualities 1. specific 2. unspecific 3. with an identity and 4. without a definite identity.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.20",
+                        "title": "",
+                        "sanskrit": "द्रष्टा दृशिमात्रः शुद्धोऽपि प्रत्ययानुपश्यः",
+                        "transliteration": "draṣṭā dṛśi-mātraḥ śuddho'pi pratyay-ānupaśyaḥ",
+                        "translation": "Though the seer is pure consciousness, it imagines the scenery (due to its intellect)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.21",
+                        "title": "",
+                        "sanskrit": "तदर्थ एव दृश्यस्यात्मा",
+                        "transliteration": "tad-artha eva dṛsyasy-ātmā",
+                        "translation": "That (the seer) alone is the reason for the scenery to exist.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.22",
+                        "title": "",
+                        "sanskrit": "कृतार्थं प्रति नष्टमप्यनष्टं तदन्यसाधारणत्वात्",
+                        "transliteration": "kṛt-ārthaṃ prati naṣṭam-apy-anaṣṭaṃ tad-anya-sādhāraṇatvāt",
+                        "translation": "For the realized being, the scenery ceases to be, yet it exists for others.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.23",
+                        "title": "",
+                        "sanskrit": "स्वस्वामिशक्त्योः स्वरूपोपलब्धिहेतुः संयोगः",
+                        "transliteration": "sva-svāmi-śaktyoḥ svarūp-opalabdhi-hetuḥ saṃyogaḥ",
+                        "translation": "The realization of the nature of the scenery and the seer is the purpose of their conjunction.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.24",
+                        "title": "",
+                        "sanskrit": "तस्य हेतुरविद्या",
+                        "transliteration": "tasya hetur-avidyā",
+                        "translation": "Ignorance is the cause of it (after conjunction of the scenery with the seer)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.25",
+                        "title": "",
+                        "sanskrit": "तदभावात् संयोगाभावो हानं तद् दृशेः कैवल्यम्",
+                        "transliteration": "tad-abhāvāt saṃyog-ābhāvo hānaṃ tad dṛśeḥ kaivalyam",
+                        "translation": "Renunciation is the absence of the conjunction (between the seer and the scenery) resulting from the cessation of ignorance. That is the liberation of the seer.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.26",
+                        "title": "",
+                        "sanskrit": "विवेकख्यातिरविप्लवा हानोपायः",
+                        "transliteration": "viveka-khyātir-aviplavā hān-opāyaḥ",
+                        "translation": "Pure awareness of the distinction (discrimination) of the seer and the scenery is the means of renouncing (the scenery).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.27",
+                        "title": "",
+                        "sanskrit": "तस्य सप्तधा प्रान्तभूमिः प्रज्ञा",
+                        "transliteration": "tasya saptadhā prānta-bhūmiḥ prajñā",
+                        "translation": "This discriminative awareness brings forth seven levels of intelligence.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "The Eight Limbs of Yoga[28-29]",
+                "verses": [
+                    {
+                        "id": "2.28",
+                        "title": "",
+                        "sanskrit": "योगाङ्गाऽनुष्ठानादशुद्धिक्षये ज्ञानदीप्तिराविवेकख्यातेः",
+                        "transliteration": "yog-āṅgā'nuṣṭhānād-aśuddhi-kṣaye jñāna-dīptirā-viveka-khyāteḥ",
+                        "translation": "Practice of the limbs of yoga eliminates impurities, brings the light of knowledge and discriminative awareness (awareness of the distinction between the seer and the scenery)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.29",
+                        "title": "The Eight Limbs",
+                        "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
+                        "transliteration": "yama-niyam-āsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo'ṣṭāv-aṅgāni",
+                        "translation": "The eight limbs of Yoga are:",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "First Limb: Yamās[30-31]",
+                "verses": [
+                    {
+                        "id": "2.30",
+                        "title": "Yamās",
+                        "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
+                        "transliteration": "ahiṃsā-saty-āsteya-brahmacaryā-parigrahā yamāḥ",
+                        "translation": "The Yamās are:",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.31",
+                        "title": "",
+                        "sanskrit": "जातिदेशकालसमयानवच्छिन्नाः सार्वभौमा महाव्रतम्",
+                        "transliteration": "jāti-deśa-kāla-samay-ānavacchinnāḥ sārva-bhaumā mahā-vratam",
+                        "translation": "These great vows are not restricted by any consideration of the life-state, place, time or situation; they are universal.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Second Limb: Niyamās[32-34]",
+                "verses": [
+                    {
+                        "id": "2.32",
+                        "title": "Niyamas",
+                        "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
+                        "transliteration": "śauca-santoṣa-tapaḥ-svādhyāy-eśvara-praṇidhānāni niyamāḥ",
+                        "translation": "The Niyamās are:",
+                        "comments": "The last three niyamās constitute Kriyā Yoga (2.1)"
+                    },
+                    {
+                        "id": "2.33",
+                        "title": "",
+                        "sanskrit": "वितर्कबाधने प्रतिपक्षभावनम्",
+                        "transliteration": "vitarka-bādhane pratipakṣa-bhāvanam",
+                        "translation": "When negative thoughts obstruct the observance of yamās and niyamās, become aware of the consequences",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.34",
+                        "title": "",
+                        "sanskrit": "वितर्का हिंसादयः कृतकारितानुमोदिता लोभक्रोधमोहपूर्वका मृदुमध्याधिमात्रा दुःखाज्ञानानन्तफला इति प्रतिपक्षभावनम्",
+                        "transliteration": "vitarkā hiṃsādayaḥ kṛta-kārit-ānumoditā lobha-krodha-moha-pūrvakā mṛdu-madhy-ādhimātrā duḥkh-ājñān-ānanta-phalā- iti pratipakṣa-bhāvanam",
+                        "translation": "Negative thoughts like violence etc. (opposite to the yamās and niyamās) lead to actions performed directly by oneself, caused to be done to others, or approved of when done by others. All these may be preceded by or performed through anger, greed or delusion. They can be mild, moderate or intense in nature. Remind oneself that these negative thoughts and actions are the cause of unending misery and ignorance. This is (meant by) the awareness of the consequences.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Effect of Practicing Yamās[35-39]",
+                "verses": [
+                    {
+                        "id": "2.35",
+                        "title": "",
+                        "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
+                        "transliteration": "ahiṃsā-pratiṣṭhāyāṃ tat-sannidhau vaira-tyāgaḥ",
+                        "translation": "Being established in non-violence (ahimsā) causes everyone in the vicinity to lose the feeling of hostility.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.36",
+                        "title": "",
+                        "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
+                        "transliteration": "satyap-ratiṣṭhāyāṃ kriyā-phal-āśrayatvam",
+                        "translation": "Being established in Truth (satya), causes one's action to bear fruit.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.37",
+                        "title": "",
+                        "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
+                        "transliteration": "asteya-pratiṣṭhāyāṃ sarva-ratn-opasthānam",
+                        "translation": "Being established in non-stealing (asteya) causes all the jewels to present themselves.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.38",
+                        "title": "",
+                        "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
+                        "transliteration": "brahmacarya-pratiṣṭhāyāṃ vīrya-lābhaḥ",
+                        "translation": "Being established in chastity (brahmacarya) gives great strength.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.39",
+                        "title": "",
+                        "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",
+                        "transliteration": "aparigraha-sthairye janma-kathaṃtā-saṃbodhaḥ",
+                        "translation": "Being established in non-accumulation (aparigraha) gives complete knowledge of the underlying causes and reasons of previous lifetimes.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Effect of Practicing Niyamās[40-45]",
+                "verses": [
+                    {
+                        "id": "2.40",
+                        "title": "",
+                        "sanskrit": "शौचात् स्वाङ्गजुगुप्सा परैरसंसर्गः",
+                        "transliteration": "śaucāt sv-āṅga-jugupsā parair-saṃsargaḥ",
+                        "translation": "Through cleanliness and purity (śauca), one develops an attitude of disinterest towards one's own body, becoming disinclined towards contact with the bodies of others.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.41",
+                        "title": "",
+                        "sanskrit": "सत्त्वशुद्धिसौमनस्यैकाग्र्येन्द्रियजयात्मदर्शनयोग्यत्वानि च",
+                        "transliteration": "sattva-śuddhi-saumanasya-ikāgry-endriya-jay-ātmadarśana-yogyatvāni ca",
+                        "translation": "And purification of the intellect, pleasantness in the mind, one-pointedness, victory over the senses and the eligibility for self-realization.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.42",
+                        "title": "",
+                        "sanskrit": "संतोषादनुत्तमसुखलाभः",
+                        "transliteration": "santoṣād-anuttama-sukha-lābhaḥ",
+                        "translation": "From contentment (santoṣa), comes unparalleled happiness.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.43",
+                        "title": "",
+                        "sanskrit": "कायेन्द्रियसिद्धिरशुद्धिक्षयात् तपसः",
+                        "transliteration": "kāy-endriya-siddhir-aśuddhi-kṣayāt tapasaḥ",
+                        "translation": "Penance (tapaḥ) eliminates impurities from the body and brings perfection to the senses.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.44",
+                        "title": "",
+                        "sanskrit": "स्वाध्यायाद् इष्टदेवतासंप्रयोगः",
+                        "transliteration": "svādhyāyād iṣṭa-devatā-saṃprayogaḥ",
+                        "translation": "From self-study and reflection (svādhyāya), one attains contact with the subtle beings.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.45",
+                        "title": "",
+                        "sanskrit": "समाधिसिद्धिरीश्वरप्रणिधानात्",
+                        "transliteration": "samādhi-siddhir-īśvara-praṇidhānāt",
+                        "translation": "By surrendering to the Divine (īśvara praṇidhānā), perfection in samādhi is attained.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Third Limb: Āsana / Postures[46-48]",
+                "verses": [
+                    {
+                        "id": "2.46",
+                        "title": "",
+                        "sanskrit": "स्थिरसुखम् आसनम्",
+                        "transliteration": "sthira-sukham āsanam",
+                        "translation": "Posture is that which is steady and comfortable.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.47",
+                        "title": "",
+                        "sanskrit": "प्रयत्नशैथिल्यानन्तसमापत्तिभ्याम्",
+                        "transliteration": "prayatna-śaithily-ānanta-samāpattibhyām",
+                        "translation": "By letting go of the effort, alignment with infinity is attained.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.48",
+                        "title": "",
+                        "sanskrit": "ततो द्वन्द्वानभिघातः",
+                        "transliteration": "tato dvandv-ānabhighātaḥ",
+                        "translation": "Through that, one is able to be unperturbed by the opposites.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Fourth Limb: Prāṇāyāma / Breath Control[49-53]",
+                "verses": [
+                    {
+                        "id": "2.49",
+                        "title": "",
+                        "sanskrit": "तस्मिन्सति श्वासप्रश्वासयोर्गतिविच्छेदः प्राणायामः",
+                        "transliteration": "tasmin-sati śvāsa-praśvāsayor-gati-vicchedaḥ prāṇāyāmaḥ",
+                        "translation": "Having done that (while in the āsana), interrupting the flow of inhalation and exhalation is called prānāyāma.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.50",
+                        "title": "",
+                        "sanskrit": "बाह्याभ्यन्तरस्तम्भवृत्तिर्देशकालसंख्याभिः परिदृष्टो दीर्घसूक्ष्मः",
+                        "transliteration": "bāhy-ābhyantara-stambha-vṛttir-deśa-kāla-saṃkhyābhiḥ paridṛṣṭo dīrgha-sūkṣmaḥ",
+                        "translation": "The various aspects of prānāyāma are exhalation, inhalation and suspension of breath. The other parameters to be looked into are the space (of the movement of breath), the time and count while the breath is deep and subtle.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.51",
+                        "title": "",
+                        "sanskrit": "बाह्याभ्यन्तरविषयाक्षेपी चतुर्थः",
+                        "transliteration": "bāhy-ābhyantara-viṣay-ākṣepī caturthaḥ",
+                        "translation": "The fourth type (of prānāyāma) happens when the (effort of) exhalation and inhalation is given up.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.52",
+                        "title": "",
+                        "sanskrit": "ततः क्षीयते प्रकाशावरणम्",
+                        "transliteration": "tataḥ kṣīyate prakāśāvaraṇam",
+                        "translation": "Thereby, the veil over the inner light is thinned.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.53",
+                        "title": "",
+                        "sanskrit": "धारणासु च योग्यता मनसः",
+                        "transliteration": "dhāraṇāsu ca yogyatā manasaḥ",
+                        "translation": "And the ability to focus one's mind follows.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Fifth Limb: Pratyāhāra / Withdrawal of the senses[54-55]",
+                "verses": [
+                    {
+                        "id": "2.54",
+                        "title": "",
+                        "sanskrit": "स्वविषयासंप्रयोगे चित्तस्वरूपानुकार इवेन्द्रियाणां प्रत्याहारः",
+                        "transliteration": "sva-viṣayā-saṃprayoge citta-svarūp-ānukāra iv-endriyāṇāṃ pratyāhāraḥ",
+                        "translation": "Withdrawal of the senses (pratyāhāra) is when, as a result of not coming in touch with sense objects, the senses (turn inwards and) follow the nature of the mind.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "2.55",
+                        "title": "",
+                        "sanskrit": "ततः परमा वश्यतेन्द्रियाणाम्",
+                        "transliteration": "tataḥ paramā vaśyat-endriyāṇām",
+                        "translation": "This gives supreme control over the senses.",
+                        "comments": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 3: Vibhūti Pada (55)",
+        "sections": [
+            {
+                "title": "Sixth Limb: Dhāraṇā / Focus[1-1]",
+                "verses": [
+                    {
+                        "id": "3.1",
+                        "title": "",
+                        "sanskrit": "देशबन्धश्चित्तस्य धारणा",
+                        "transliteration": "deśa-bandhaś-cittasya dhāraṇā",
+                        "translation": "Holding the mind in a place is focus (dhāraṇā)",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Seventh Limb: Dhyāna / Meditation[2-2]",
+                "verses": [
+                    {
+                        "id": "3.2",
+                        "title": "",
+                        "sanskrit": "तत्र प्रत्ययैकतानता ध्यानम्",
+                        "transliteration": "tatra pratyaya-ikatānatā dhyānam",
+                        "translation": "There, an unbroken flow in the content of the mind is meditation (dhyāna)",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Eighth Limb: Samādhi[3-3]",
+                "verses": [
+                    {
+                        "id": "3.3",
+                        "title": "",
+                        "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
+                        "transliteration": "tad-ev-ārtha-mātra-nirbhāsaṃ svarūpa-śūnyam-iva samādhiḥ",
+                        "translation": "That (meditation) itself becomes samādhi when only pure awareness remains, almost as if there is no self-cognition.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Samyama[4-8]",
+                "verses": [
+                    {
+                        "id": "3.4",
+                        "title": "",
+                        "sanskrit": "त्रयमेकत्र संयमः",
+                        "transliteration": "trayamekatra saṃyamaḥ",
+                        "translation": "When all the three - dhāraṇā, dhyāna and samādhi - come together, it is samyamaḥ.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.5",
+                        "title": "",
+                        "sanskrit": "तज्जयात्प्रज्ञालोकः",
+                        "transliteration": "taj-jayāt-prajñā-lokaḥ",
+                        "translation": "Mastery of that (samyama) brings transcendental awareness.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.6",
+                        "title": "",
+                        "sanskrit": "तस्य भूमिषु विनियोगः",
+                        "transliteration": "tasya bhūmiṣu viniyogaḥ",
+                        "translation": "That (transcendental awareness) should be applied in previous planes of awareness.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.7",
+                        "title": "",
+                        "sanskrit": "त्रयमन्तरङ्गं पूर्वेभ्यः",
+                        "transliteration": "trayam-antaraṅgaṃ pūrvebhyaḥ",
+                        "translation": "These three (dhāraṇā, dhyāna and samādhi) are subtler (internal) than the previous ones (Yamā, Niyamā, Āsana, Prāṇāyāma and Pratyahāra)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.8",
+                        "title": "",
+                        "sanskrit": "तदपि बहिरङ्गं निर्बीजस्य",
+                        "transliteration": "tad-api bahiraṅgaṃ nirbījasya",
+                        "translation": "However, they (dhāraṇā, dhyāna and samādhi) are gross (external) as compared to nirbīja (seedless) samādhi.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "The Three Outcomes[9-15]",
+                "verses": [
+                    {
+                        "id": "3.9",
+                        "title": "1. Nirodha Pariṇāma",
+                        "sanskrit": "व्युत्थाननिरोधसंस्कारयोरभिभवप्रादुर्भावौ निरोधक्षणचित्तान्वयो निरोधपरिणामः",
+                        "transliteration": "vyutthāna-nirodha-saṃskārayor-abhibhava-prādurbhāvau nirodha-kṣaṇa-citt-ānvayo nirodha-pariṇāmaḥ",
+                        "translation": "When the tendency of the mind to express is diminishing and its tendency of restraint is prevailing, then the conjunction of the mind with the restraining tendency is Nirodha Pariṇāma.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.10",
+                        "title": "",
+                        "sanskrit": "‌तस्य प्रशान्तवाहिता संस्कारात्",
+                        "transliteration": "tasya praśānta-vāhitā saṃskārāt",
+                        "translation": "A steady flow of such a state results from this impression (due to the practice of Nirodha Pariṇāma)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.11",
+                        "title": "2. Samādhi Pariṇāma",
+                        "sanskrit": "सर्वार्थतैकाग्रतयोः क्षयोदयौ चित्तस्य समाधिपरिणामः",
+                        "transliteration": "sarvārthata-ikāgratayoḥ kṣay-odayau cittasya samādhi-pariṇāmaḥ",
+                        "translation": "When the tendency of the mind to be scattered diminishes and its tendency to be one pointed rises, that is samādhi pariṇāma.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.12",
+                        "title": "3. Ekāgratā Pariṇāma",
+                        "sanskrit": "ततः पुनः शान्तोदितौ तुल्यप्रत्ययौ चित्तस्यैकाग्रतापरिणामः",
+                        "transliteration": "tataḥ punaḥ śānt-oditau tulya-pratyayau cittasya-ikāgratā-pariṇāmaḥ",
+                        "translation": "When the one-pointedness of the mind rises and subsides again like any other thought, that is Ekāgratā pariṇāma of the mind.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.13",
+                        "title": "",
+                        "sanskrit": "एतेन भूतेन्द्रियेषु धर्मलक्षणावस्थापरिणामा व्याख्याताः",
+                        "transliteration": "etena bhūt-endriyeṣu dharma-lakṣaṇ-āvasthā-pariṇāmā vyākhyātāḥ",
+                        "translation": "By this (the three pariṇāmas above), the transformation in the essential nature, the transformation due to time and the transformation of characteristics in the senses (indriyās) and the (five) elements are explained.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.14",
+                        "title": "",
+                        "sanskrit": "शान्तोदिताव्यपदेश्यधर्मानुपाती धर्मी",
+                        "transliteration": "śānt-odit-āvyapadeśya-dharm-ānupātī dharmī",
+                        "translation": "The dharmī is the unchanging basis common to the latent, manifest and unmanifest characteristics.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.15",
+                        "title": "",
+                        "sanskrit": "क्रमान्यत्वं परिणामान्यत्वे हेतुः",
+                        "transliteration": "kramānyatvaṃ pariṇāmānyatve hetuḥ",
+                        "translation": "The types of transformation differ due to the differences in the sequence of characteristics.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Vibhūti - Extraordinary Abilities[16-49]",
+                "verses": [
+                    {
+                        "id": "3.16",
+                        "title": "",
+                        "sanskrit": "परिणामत्रयसंयमाद् अतीतानागतज्ञानम्",
+                        "transliteration": "pariṇāma-traya-saṃyamād atīt-ānāgata-jñānam",
+                        "translation": "By samyama on the three-fold transformation (of essential nature, due to time and of characteristics), there comes knowledge of the past and future.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.17",
+                        "title": "",
+                        "sanskrit": "शब्दार्थप्रत्ययानामितरेतराध्यासात् सङ्करस्तत्प्रविभागसंयमात्सर्वभूतरुतज्ञानम्",
+                        "transliteration": "śabd-ārtha-pratyayānām-itaretar-ādhyāsāt saṅkaras-tat-pravibhāga-saṃyamāt-sarva-bhūta-ruta-jñānam",
+                        "translation": "The name associated with an object, the meaning of the name and the object itself are commingled with one another. By samyama on the distinction between these three, comes the knowledge of the sounds made by all beings.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.18",
+                        "title": "",
+                        "sanskrit": "संस्कारसाक्षात्करणात्पूर्वजातिज्ञानम्",
+                        "transliteration": "saṃskāra-sākṣāt-karaṇāt-pūrva-jāti-jñānam",
+                        "translation": "Through the direct perception of latent impressions, comes the knowledge of previous births.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.19",
+                        "title": "",
+                        "sanskrit": "प्रत्ययस्य परचित्तज्ञानम्",
+                        "transliteration": "pratyayasya para-citta-jñānam",
+                        "translation": "By samyama on the content of one's mind comes the knowledge of others' mind.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.20",
+                        "title": "",
+                        "sanskrit": "न च तत्सालम्बनं तस्याविषयीभूतत्वात्",
+                        "transliteration": "na ca tat-sā-lambanaṃ tasy-āviṣayī-bhūtatvāt",
+                        "translation": "The underlying support of that knowledge (of the other person's mind) remains unperceived because that is not the subject of samyama.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.21",
+                        "title": "",
+                        "sanskrit": "कायरूपसंयमात्तद्ग्राह्यशक्तिस्तम्भे चक्षुःप्रकाशासंप्रयोगेऽन्तर्धानम्",
+                        "transliteration": "kāya-rūpa-saṃyamāt-tad-grāhya-śakti-stambhe cakṣuḥ-prakāś-āsaṃprayoge'ntardhānam",
+                        "translation": "By samyama on the form of one's own physical body, the perceivability of the body is suspended and it becomes invisible to other people.",
+                        "comments": "There is one more śhloka which says that, similarly, other senses can also be suspended. In the same way, as described in relation to sight, one is able to suspend the ability of the body to be heard, touched, tasted or smelt."
+                    },
+                    {
+                        "id": "3.22",
+                        "title": "",
+                        "sanskrit": "सोपक्रमं निरुपक्रमं च कर्म तत्संयमादपरान्तज्ञानमरिष्टेभ्यो वा",
+                        "transliteration": "sopakramaṃ nirupakramaṃ ca karma tat-saṃyamād-aparānta-jñānam-ariṣṭebhyo vā",
+                        "translation": "Karma is of two kinds - either fast or slow to manifest. By samyama on these karmās or on the signs of death, comes the knowledge of the time of death.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.23",
+                        "title": "",
+                        "sanskrit": "मैत्र्यादिषु बलानि",
+                        "transliteration": "maitry-ādiṣu balāni",
+                        "translation": "By samyama on friendliness and other attitudes, there comes great strength.",
+                        "comments": "Reference to maitri, karuṇā, muditā and upekshā (1.33)"
+                    },
+                    {
+                        "id": "3.24",
+                        "title": "",
+                        "sanskrit": "बलेषु हस्तिबलादीनि",
+                        "transliteration": "baleṣu hasti-balādīni",
+                        "translation": "By samyama on the strength of an elephant comes a similar strength.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.25",
+                        "title": "",
+                        "sanskrit": "प्रवृत्त्यालोकन्यासात्सूक्ष्मव्यवहितविप्रकृष्टज्ञानम्",
+                        "transliteration": "pravṛtty-āloka-nyāsāt-sūkṣma-vyavahita-viprakṛṣṭa-jñānam",
+                        "translation": "By shining the inner light, comes the knowledge of subtle, hidden and distant objects.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.26",
+                        "title": "",
+                        "sanskrit": "भुवनज्ञानं सूर्ये संयमात्",
+                        "transliteration": "bhuvana-jñānaṃ sūrye saṃyamāt",
+                        "translation": "By samyama on the Sun (the right/sūrya nādi) comes the knowledge of the physical universe.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.27",
+                        "title": "",
+                        "sanskrit": "चन्द्रे ताराव्यूहज्ञानम्",
+                        "transliteration": "candre tārā-vyūha-jñānam",
+                        "translation": "By samyama on the Moon (the left/chandra nāḍi) comes the knowledge of the arrangement of the stars.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.28",
+                        "title": "",
+                        "sanskrit": "ध्रुवे तद्गतिज्ञानम्",
+                        "transliteration": "dhruve tad-gati-jñānam",
+                        "translation": "By samyama on the Pole Star (Dhruva) comes the knowledge of the movement of the stars.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.29",
+                        "title": "",
+                        "sanskrit": "नाभिचक्रे कायव्यूहज्ञानम्",
+                        "transliteration": "nābhi-cakre kāya-vyūha-jñānam",
+                        "translation": "By samyama on the navel center, comes the knowledge of the arrangement of the systems of the body.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.30",
+                        "title": "",
+                        "sanskrit": "कण्ठकूपे क्षुत्पिपासानिवृत्तिः",
+                        "transliteration": "kaṇṭha-kūpe kṣut-pipāsā-nivṛttiḥ",
+                        "translation": "By samyama on the pit of the throat (kaṇṭhakūpe), thirst and hunger are disappear.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.31",
+                        "title": "",
+                        "sanskrit": "कूर्मनाड्यां स्थैर्यम्",
+                        "transliteration": "kūrma-nāḍyāṃ sthairyam",
+                        "translation": "By samyama on the central channel below the throat (kūrma nāḍi), comes stability.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.32",
+                        "title": "",
+                        "sanskrit": "मूर्धज्योतिषि सिद्ध॑दर्श॒नम्",
+                        "transliteration": "mūrdha-jyotiṣi siddha-darśanam",
+                        "translation": "By doing samyama on the coronal light (top of the head), visions of the masters (siddhās) can come.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.33",
+                        "title": "",
+                        "sanskrit": "प्रातिभाद्वा सर्वम्",
+                        "transliteration": "prātibhād-vā sarvam",
+                        "translation": "Or through intuition, everything could be known.",
+                        "comments": "Here prātibha refers to intuition"
+                    },
+                    {
+                        "id": "3.34",
+                        "title": "",
+                        "sanskrit": "हृदये चित्तसंवित्",
+                        "transliteration": "hṛdaye citta-saṃvit",
+                        "translation": "By samyama on the heart, comes the knowledge of the consciousness.",
+                        "comments": "Samvit is infallible, well-founded knowledge"
+                    },
+                    {
+                        "id": "3.35",
+                        "title": "",
+                        "sanskrit": "सत्त्वपुरुषयोरत्यन्तासंकीर्णयोः प्रत्ययाविशेषो भोगः परार्थत्वात्स्वार्थसंयमात्पुरुषज्ञानम्",
+                        "transliteration": "sattva-puruṣayor-atyantā-saṃkīrṇayoḥ pratyay-āviśeṣo bhogaḥ parārthatvāt-svārtha-saṃyamāt-puruṣa-jñānam",
+                        "translation": "The subtlest aspect of the intellect (sattva) and the Self (puruṣa) are quite different. When they commingle (and one starts identifying with the intellect), it results in experiences which are really for the sake of another (the Self). By samyama on pure consciousness (which is distinct from the subtlest aspect of intellect), comes the knowledge of the Self.",
+                        "comments": "Also refer 3.49"
+                    },
+                    {
+                        "id": "3.36",
+                        "title": "",
+                        "sanskrit": "ततः प्रातिभश्रावणवेदनादर्शास्वादवार्ता जायन्ते",
+                        "transliteration": "tataḥ prātibha-śrāvaṇa-vedan-ādarś-āsvāda-vārtā jāyante",
+                        "translation": "From that (knowledge of the Self) arises intuitive hearing, touch, vision, taste and smell.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.37",
+                        "title": "",
+                        "sanskrit": "ते समाधावुपसर्गा व्युत्थाने सिद्धयः",
+                        "transliteration": "te samādhāv-upasargā vyutthāne siddhayaḥ",
+                        "translation": "These (heightened intuitive abilities / siddhis) are obstacles to samādhi but appear to be attainments or powers to the mind turned outwards.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.38",
+                        "title": "",
+                        "sanskrit": "बन्धकारणशैथिल्यात्प्रचारसंवेदनाच्च चित्तस्य परशरीरावेशः",
+                        "transliteration": "bandha-kāraṇa-śaithilyāt-pracāra-saṃvedanāc-ca cittasya para-śarīr-āveśaḥ",
+                        "translation": "By loosening the causes of bondage and by the knowledge of the passages of the mind, there comes the ability to enter another body.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.39",
+                        "title": "",
+                        "sanskrit": "उदानजयाज्जलपङ्ककण्टकादिष्वसङ्ग उत्क्रान्तिश्च",
+                        "transliteration": "udāna-jayāj-jala-paṅka-kaṇṭak-ādiṣv-asaṅga utkrāntiś-ca",
+                        "translation": "The mastery over udāna, the upward flowing prāṇa-vāyu, brings the ability to remain untouched by mud, water, thorns and the like, as well as the ability to levitate.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.40",
+                        "title": "",
+                        "sanskrit": "समानजयाज्ज्वलनम्",
+                        "transliteration": "samāna-jayāj-jvalanam",
+                        "translation": "The mastery over samāna, the prāṇa flowing in the navel area, brings radiance or fire.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.41",
+                        "title": "",
+                        "sanskrit": "श्रोत्राकाशयोः सम्बन्धसंयमाद्दिव्यं श्रोत्रम्",
+                        "transliteration": "śrotrākāśayoḥ sambandhasaṃyamāddivyaṃ śrotram",
+                        "translation": "Samyama on the relationship between space and the sense of hearing brings about a heightened sense of hearing.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.42",
+                        "title": "The Flying Sutra",
+                        "sanskrit": "कायाकाशयोः सम्बन्धसंयमाल्लघुतूलसमापत्तेश्चाकाशगमनम्",
+                        "transliteration": "kāy-ākāśayoḥ sambandha-saṃyamāl-laghu-tūla-samāpatteś-c-ākāśa-gamanam",
+                        "translation": "By samyama on the relationship between body and space, the lightness of cotton is attained and with that comes the ability to move through space.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.43",
+                        "title": "",
+                        "sanskrit": "बहिरकल्पिता वृत्तिर्महाविदेहा ततः प्रकाशावरणक्षयः",
+                        "transliteration": "bahir-akalpitā vṛttir-mahā-videhā tataḥ prakāś-āvaraṇa-kṣayaḥ",
+                        "translation": "When the mind can extend beyond the body effortlessly, it is the state of a great disincarnate one. With that, the veil over the light of knowledge is diminished.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.44",
+                        "title": "",
+                        "sanskrit": "स्थूलस्वरूपसूक्ष्मान्वयार्थवत्त्वसंयमाद्भूतजयः",
+                        "transliteration": "sthūla-svarūpa-sūkṣm-ānvay-ārthavattva-saṃyamād-bhūta-jayaḥ",
+                        "translation": "By samyama on the aspects of the elements (bhūtās) - gross form, essence, subtle form, interconnectedness and purposefulness, mastery over the elements follows.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.45",
+                        "title": "",
+                        "sanskrit": "ततोऽणिमादिप्रादुर्भावः कायसम्पत्तद्धर्मानभिघातश्च",
+                        "transliteration": "tato'ṇim-ādi-prādurbhāvaḥ kāya-sampat-tad-dharm-ānabhighātaś-ca",
+                        "translation": "Through that (mastery over the elements), come powers such making the body small. Perfection of the body is attained as well and the elements cause it no harm.",
+                        "comments": "Aṇimā-ādi refers to the ashta (eight) siddhis -> Aṇimā, Mahimā, Garimā, Laghimā, Prāpti, Prākāmya, Īśitva and Vaśitva"
+                    },
+                    {
+                        "id": "3.46",
+                        "title": "",
+                        "sanskrit": "रूपलावण्यबलवज्रसंहननत्वानि कायसम्पत्",
+                        "transliteration": "rūpa-lāvaṇya-bala-vajra-saṃhananatvāni kāya-sampat",
+                        "translation": "Perfection of the body includes beauty, gracefulness, strength and unyielding hardness in receiving blows when struck.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.47",
+                        "title": "",
+                        "sanskrit": "ग्रहणस्वरूपास्मितान्वयार्थवत्त्वसंयमादिन्द्रियजयः",
+                        "transliteration": "grahaṇa-svarūp-āsmit-ānvay-ārthavattva-saṃyamād-indriya-jayaḥ",
+                        "translation": "By samyama on the process of perception by senses, their essence, I-ness, connectedness and purposefulness, comes mastery over the senses.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.48",
+                        "title": "",
+                        "sanskrit": "ततो मनोजवित्वं विकरणभावः प्रधानजयश्च",
+                        "transliteration": "tato mano-javitvaṃ vikaraṇa-bhāvaḥ pradhāna-jayaś-ca",
+                        "translation": "By that (mastery over the senses) comes sharpness of mind, perception beyond the senses and supremacy over the Primal Cause (the cause of all existence).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.49",
+                        "title": "",
+                        "sanskrit": "सत्त्वपुरुषान्यताख्यातिमात्रस्य सर्वभावाधिष्ठातृत्वं सर्वज्ञातृत्वं च",
+                        "transliteration": "sattva-puruṣ-ānyatā-khyāti-mātrasya sarva-bhāv-ādhiṣṭhātṛtvaṃ sarva-jñātṛtvaṃ ca",
+                        "translation": "Upon being established in the knowledge of the distinction between the intellect (sattva) and pure consciousness (purūsha), one attains mastery over all kinds of feelings and also omniscience.",
+                        "comments": "Also refer 3.35"
+                    }
+                ]
+            },
+            {
+                "title": "Higher States[50-55]",
+                "verses": [
+                    {
+                        "id": "3.50",
+                        "title": "",
+                        "sanskrit": "तद्वैराग्यादपि दोषबीजक्षये कैवल्यम्",
+                        "transliteration": "tad-vairāgyād-api doṣa-bīja-kṣaye kaivalyam",
+                        "translation": "The desirelessness for even that (the attainments in the previous sūtras) destroys the seeds of bondage and one attains absolute liberation (kaivalya).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.51",
+                        "title": "",
+                        "sanskrit": "स्थान्युपनिमन्त्रणे सङ्गस्मयाकरणं पुनरनिष्टप्रसङ्गात्",
+                        "transliteration": "sthāny-upanimantraṇe saṅga-smay-ākaraṇaṃ punar-aniṣṭa-prasaṅgāt",
+                        "translation": "When invited by the celestial beings, there is no reason to accept the offer or smile with pride as it may again lead to undesirable events.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.52",
+                        "title": "",
+                        "sanskrit": "क्षणतत्क्रमयोः संयमाद्विवेकजं ज्ञानम्",
+                        "transliteration": "kṣaṇa-tat-kramayoḥ saṃyamād-vivekajaṃ jñānam",
+                        "translation": "Samyama on the present moment and its flow results in knowledge that is born from discrimination.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.53",
+                        "title": "",
+                        "sanskrit": "जातिलक्षणदेशैरन्यतानवच्छेदात् तुल्ययोस्ततः प्रतिपत्तिः",
+                        "transliteration": "jāti-lakṣaṇa-deśair-anyatānavacchedāt-tulyayos-tataḥ pratipattiḥ",
+                        "translation": "This knowledge (born from discrimination) brings awareness of the difference between two similar objects, which are not distinguishable by type (or category), qualities or location.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.54",
+                        "title": "",
+                        "sanskrit": "तारकं सर्वविषयं सर्वथाविषयम् अक्रमं चेति विवेकजं ज्ञानम्",
+                        "transliteration": "tārakaṃ sarva-viṣayaṃ sarvathā-viṣayam akramaṃ ce-ti vivekajaṃ jñānam",
+                        "translation": "This knowledge born from discrimination is intuitive and applies to everything, by all means, and arises spontaneously (unlike knowledge born of logic which follows a sequence of inferences).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "3.55",
+                        "title": "",
+                        "sanskrit": "सत्त्वपुरुषयोः शुद्धिसाम्ये कैवल्यमिति",
+                        "transliteration": "sattvapuruṣayoḥ śuddhisāmye kaivalyamiti",
+                        "translation": "When the intellect and the consciousness become equally pure, that is absolute liberation (kaivalya).",
+                        "comments": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 4: Kaivalya Pada (34)",
+        "sections": [
+            {
+                "title": "The Big Mind[1-6]",
+                "verses": [
+                    {
+                        "id": "4.1",
+                        "title": "",
+                        "sanskrit": "जन्मौषधिमन्त्रतपःसमाधिजाः‌ ‌सिद्धयः‌",
+                        "transliteration": "janm-auṣadhi-mantra-tapaḥ-samādhijāḥ‌ siddhayaḥ‌",
+                        "translation": "The different kinds of perfection (siddhis) come with birth or are attained through herbs, mantra, penance or samādhi.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.2",
+                        "title": "",
+                        "sanskrit": "जात्यन्तरपरिणामः‌ ‌प्रकृत्यापूरात्‌",
+                        "transliteration": "jāty-antara-pariṇāmaḥ‌ prakṛty-āpūrāt",
+                        "translation": "Transition to another life-state or form (in the next birth) comes as a result of what is filled in one's nature (forms natural tendency)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.3",
+                        "title": "",
+                        "sanskrit": "निमित्तमप्रयोजकं‌ ‌प्रकृतीनां‌ ‌वरणभे‌दस्तु ‌ततः‌ ‌क्षेत्रिकवत्‌",
+                        "transliteration": "nimittam-aprayojakaṃ‌ prakṛtīnāṃ‌ varaṇa-bhedastu tataḥ‌ kṣetrikavat",
+                        "translation": "Incidental cause or action does not fill up one's nature (which happens on its own) but it does remove the obstacles to the process, like a farmer (removes the barriers to the field and water fills it up on its own).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.4",
+                        "title": "",
+                        "sanskrit": "निर्माणचित्तान्यस्मितामात्रात्‌",
+                        "transliteration": "nirmāṇa-cittāny-asmitā-mātrāt",
+                        "translation": "Doership comes solely from a sense of I-ness (asmitā).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.5",
+                        "title": "",
+                        "sanskrit": "प्रवृत्तिभेदे‌ ‌प्रयोजकं‌ ‌चित्तमेकमनेकेषाम्‌",
+                        "transliteration": "pravṛtti-bhede prayojakaṃ‌ cittam-ekam-anekeṣām",
+                        "translation": "It is the one mind that is the director or different activities (or tendencies)",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.6",
+                        "title": "",
+                        "sanskrit": "तत्र‌ ‌ध्यानजमनाशयम्‌",
+                        "transliteration": "tatra dhyānajamanāśayam",
+                        "translation": "There, the tendency or activity born of meditation is free from latent impressions.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Nuances of Karmā[7-11]",
+                "verses": [
+                    {
+                        "id": "4.7",
+                        "title": "",
+                        "sanskrit": "कर्माशुक्लाकृष्णं‌ ‌योगिनस्त्रिविधमितरेषाम्‌",
+                        "transliteration": "karm-āśuklā-kṛṣṇaṃ‌ yoginas-trividham-itareṣām",
+                        "translation": "The actions of a yogi are neither white nor black. They are three-fold for others.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.8",
+                        "title": "",
+                        "sanskrit": "ततस्तद्विपाकानुगुणानामेवाभिव्यक्तिर्वासनानाम्‌",
+                        "transliteration": "tatas-tad-vipāk-ānuguṇānām-evā-bhivyaktir-vāsanānām",
+                        "translation": "As they (the three-fold actions) lead up to fruition, they manifest corresponding latent impressions.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.9",
+                        "title": "",
+                        "sanskrit": "जातिदेशकालव्यवहितानामप्यानन्तर्यं‌ ‌स्मृतिसंस्कारयोरेकरूपत्वात्‌",
+                        "transliteration": "jāti-deśa-kāla-vyavahitānām-apy-ānantaryaṃ‌ smṛti-saṃskārayor-eka-rūpatvāt",
+                        "translation": "Even if there is interruption in life-state, time and space, karmā unfolds with unbroken continuity because memory and latent impressions are of the same nature.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.10",
+                        "title": "",
+                        "sanskrit": "तासामनादित्वं‌ ‌चाशिषो‌ ‌नित्यत्वात्‌",
+                        "transliteration": "tāsām-anāditvaṃ‌ cā-śiṣo nityatvāt",
+                        "translation": "Those (patterns of impressions) are beginningless because the desire to live is eternal.",
+                        "comments": "As long as there is a will to live, some or other patterns keep happening in you and you get into those patterns"
+                    },
+                    {
+                        "id": "4.11",
+                        "title": "",
+                        "sanskrit": "हेतुफलाश्रयालम्बनैः‌ ‌संगृहीतत्वादेषामभावे‌ ‌तदभावः‌",
+                        "transliteration": "hetuphalāśrayālambanaiḥ‌ saṃgṛhītatvādeṣāmabhāve tadabhāvaḥ‌",
+                        "translation": "Impressions are held together by cause, motive, basis and support. Disappearance of these four factors causes the impressions to disappear as well.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Perceiving Power of the Mind[12-17]",
+                "verses": [
+                    {
+                        "id": "4.12",
+                        "title": "",
+                        "sanskrit": "अतीतानागतं‌ ‌स्वरूपतोऽस्त्यध्वभेदाद्धर्माणाम्‌",
+                        "transliteration": "atīt-ānāgataṃ‌ svarūpato'styadhva-bhedād-dharmāṇām",
+                        "translation": "The past and the future exist in reality, owing to differences in characteristics.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.13",
+                        "title": "",
+                        "sanskrit": "ते‌ ‌व्यक्तसूक्ष्मा‌: ‌गुणात्मानः‌",
+                        "transliteration": "te vyakta-sūkṣmā‌: guṇ-ātmānaḥ‌",
+                        "translation": "Manifest (when in the present) or subtle (not manifested when in the past or the future), they (characteristics) are of the nature of the (three) guṇās (sattva, rajas and tamas).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.14",
+                        "title": "",
+                        "sanskrit": "परिणामैकत्वाद्वस्तुतत्त्वम्‌",
+                        "transliteration": "pariṇāma-ikatvād-vastu-tattvam",
+                        "translation": "The reality of an object comes from the uniformity in change (of the guṇās).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.15",
+                        "title": "",
+                        "sanskrit": "वस्तुसाम्ये‌ ‌चित्तभेदात्तयोर्विभक्तः‌ ‌पन्थाः‌",
+                        "transliteration": "vastusāmye citta-bhedāttayorvibhaktaḥ‌ panthāḥ‌",
+                        "translation": "Some objects may be perceived differently by different minds because of the difference in paths of perception.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.16",
+                        "title": "",
+                        "sanskrit": "न‌ ‌चैकचित्ततन्त्रं‌ ‌वस्तु‌ ‌तदप्रमाणकं‌ ‌तदा‌ ‌किं‌ ‌स्यात्‌",
+                        "transliteration": "na ca-ika-citta-tantraṃ‌ vastu tad-apramāṇakaṃ‌ tadā‌ kiṃ‌ syāt",
+                        "translation": "The (existence of the) object does not depend on any one mind. If it does, what happens to the object when it is not perceived by that mind?",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.17",
+                        "title": "",
+                        "sanskrit": "तदुपरागापेक्षित्वाच्चित्तस्य‌ ‌वस्तु‌ ‌ज्ञाताज्ञातम्‌",
+                        "transliteration": "tad-uparāg-āpekṣitvāc-cittasya vastu jñāt-ājñātam",
+                        "translation": "The object needs to influence or color the mind and accordingly it is known or unknown (by the mind).",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Beyond the Mind[18-28]",
+                "verses": [
+                    {
+                        "id": "4.18",
+                        "title": "",
+                        "sanskrit": "सदा‌ ‌ज्ञाताश्चित्तवृत्तयस्तत्प्रभोः‌ ‌पुरुषस्यापरिणामित्वात्‌",
+                        "transliteration": "sadā‌ jñātāś-citta-vṛttayas-tat-prabhoḥ‌ puruṣasy-āpariṇāmitvāt",
+                        "translation": "The modifications of the mind are always known by its lord (the puruṣa) as the puruṣa is changeless.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.19",
+                        "title": "",
+                        "sanskrit": "न‌ ‌तत्स्वाभासं‌ ‌दृश्यत्वात्‌",
+                        "transliteration": "na tat-svābhāsaṃ‌ dṛśyatvāt",
+                        "translation": "That (mind) is not self-illuminating as it an object of perception (by the puruṣa).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.20",
+                        "title": "",
+                        "sanskrit": "एकसमये‌ ‌चोभयानवधारणम्‌",
+                        "transliteration": "eka-samaye c-obhayān-avadhāraṇam",
+                        "translation": "And, both (the mind and the puruṣa) cannot be cognized simultaneously.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.21",
+                        "title": "",
+                        "sanskrit": "चित्तान्तरदृश्ये‌ ‌बुद्धिबुद्धेरतिप्रसङ्गः‌ ‌स्मृतिसङ्करश्च‌",
+                        "transliteration": "cittāntara-dṛśye buddhi-buddher-atiprasaṅgaḥ‌ smṛti-saṅkaraś-ca",
+                        "translation": "If one mind is known by another, which is known by another and so on, there would be an endless progression and mixture of memories.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.22",
+                        "title": "",
+                        "sanskrit": "चितेरप्रतिसंक्रमायास्तदाकारापत्तौ‌ ‌स्वबुद्धिसंवेदनम्‌",
+                        "transliteration": "citer-apratisaṃkramāyās-tad-ākārāpattau sva-buddhi-saṃvedanam",
+                        "translation": "Consciousness is unchanging and when the intellect assumes its form, self-cognition is possible.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.23",
+                        "title": "",
+                        "sanskrit": "द्रष्टृदृश्योपरक्तं‌ ‌चित्तं‌ ‌सर्वार्थम्‌",
+                        "transliteration": "draṣṭṛ-dṛśy-oparaktaṃ cittaṃ sarvārtham",
+                        "translation": "",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.24",
+                        "title": "",
+                        "sanskrit": "तदसंख्येयवासनाभिश्चित्रमपि‌ ‌परार्थं‌ ‌संहत्यकारित्वात्‌",
+                        "transliteration": "tad-asaṃkhyeya-vāsanābhiś-citram-api parārthaṃ saṃhatya-kāritvāt",
+                        "translation": "Though the mind-field is full of innumerable impressions, it can act only in combination (with the senses, sense objects, ego etc). Therefore, its objective is for another (not for its own sake; here 'another' is the puruṣa, the witnessing consciousness).",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.25",
+                        "title": "",
+                        "sanskrit": "विशेषदर्शिन‌ ‌आत्मभावभावनाविनिवृत्तिः‌",
+                        "transliteration": "viśeṣa-darśina ātma-bhāva-bhāvanā-vinivṛttiḥ",
+                        "translation": "For one who distinctly experiences the Self (distinct from the intellect), the curiosity about the nature of one's own Self vanishes.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.26",
+                        "title": "",
+                        "sanskrit": "तदा‌ ‌विवेकनिम्नं‌ ‌कैवल्यप्राग्भारं‌ ‌चित्तम्‌",
+                        "transliteration": "tadā viveka-nimnaṃ‌ kaivalya-prāgbhāraṃ cittam",
+                        "translation": "Then, the mind starts inclining towards discrimination and gravitates towards absolute liberation.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.27",
+                        "title": "",
+                        "sanskrit": "तच्छिद्रेषु‌ ‌प्रत्ययान्तराणि‌ ‌संस्कारेभ्यः‌",
+                        "transliteration": "tac-chidreṣu pratyay-āntarāṇi saṃskārebhyaḥ",
+                        "translation": "When there are gaps or breaks in that discrimination, other thoughts and ideas come up in the mind due to earlier impressions.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.28",
+                        "title": "",
+                        "sanskrit": "हानमेषां‌ ‌क्लेशवदुक्तम्‌",
+                        "transliteration": "hānameṣāṃ kleśavaduktam",
+                        "translation": "These can be removed with the means of getting rid of misery, explained earlier.",
+                        "comments": ""
+                    }
+                ]
+            },
+            {
+                "title": "Absolute Liberation[29-34]",
+                "verses": [
+                    {
+                        "id": "4.29",
+                        "title": "",
+                        "sanskrit": "प्रसंख्यानेऽप्यकुसीदस्य‌ ‌सर्वथा‌ ‌विवेकख्यातेर्धर्ममेघः‌ ‌समाधिः‌",
+                        "transliteration": "prasaṃkhyāne'py-akusīdasya sarvathā viveka-khyāter-dharma-meghaḥ samādhiḥ‌",
+                        "translation": "When there is no interest even in the fruits of being established in that discriminative awareness, there comes the samādhi which brings a cloud of virtues.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.30",
+                        "title": "",
+                        "sanskrit": "ततः‌ ‌क्लेशकर्मनिवृत्तिः‌",
+                        "transliteration": "tataḥ kleśa-karma-nivṛttiḥ‌",
+                        "translation": "Thereafter, all afflictions and impressions are removed",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.31",
+                        "title": "",
+                        "sanskrit": "तदा‌ ‌सर्वावरणमलापेतस्य‌ ‌ज्ञानस्यानन्त्याज्ज्ञेयमल्पम्‌",
+                        "transliteration": "tadā sarv-āvaraṇa-mal-āpetasya jñānasy-ānantyāj-jñeyam-alpam",
+                        "translation": "Then, free from all the veils of impurities, with the knowledge that is infinite, there is almost nothing to be known.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.32",
+                        "title": "",
+                        "sanskrit": "ततः‌ ‌कृतार्थानां‌ ‌परिणामक्रमसमाप्तिर्गुणानाम्‌",
+                        "transliteration": "tataḥ kṛtārthānāṃ pariṇāma-krama-samāptirguṇānām",
+                        "translation": "Thereafter, the purpose of the (three) guṇās is fulfilled and their sequence of transformation comes to an end.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.33",
+                        "title": "",
+                        "sanskrit": "क्षणप्रतियोगी‌ ‌परिणामापरान्तनिर्ग्राह्यः‌ ‌क्रमः‌",
+                        "transliteration": "kṣaṇa-pratiyogī pariṇāmāp-arānta-nirgrāhyaḥ kramaḥ",
+                        "translation": "Sequence (in the above sutra) means that which is perceivable at the end of the transformation that happens through moments of time.",
+                        "comments": ""
+                    },
+                    {
+                        "id": "4.34",
+                        "title": "",
+                        "sanskrit": "पुरुषार्थशून्यानां‌ ‌गुणानां‌ ‌प्रतिप्रसवः‌ ‌कैवल्यं‌ ‌स्वरूपप्रतिष्ठा‌ ‌वा‌ ‌चितिशक्तिरिति‌",
+                        "transliteration": "puruṣārtha-śūnyānāṃ guṇānāṃ pratiprasavaḥ‌ kaivalyaṃ svarūpa-pratiṣṭhā‌ vā‌ citi-śaktir-iti",
+                        "translation": "Absolute liberation is when the guṇās, now devoid of the puruṣa's purpose (having attained it already), resolve back to their source or when the consciousness is established in its nature.",
+                        "comments": ""
+                    }
+                ]
+            }
+        ]
+    }
+];

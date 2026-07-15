@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GX1XKWJQX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []; 
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GX1XKWJQX5');
+    </script>
+    <!-- Google tag (gtag.js) --> 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yoga Sutrā Notes - Catalog</title>
+    <link rel="shortcut icon" href="storage/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <script src="storage/sutras.js"></script>
+    <script>
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.documentElement.classList.add('dark');
+            document.addEventListener('DOMContentLoaded', () => document.body.classList.add('dark'));
+        }
+    </script>
+    <style>
+        :root {
+            --sutra-font-size: 1.35rem;
+            --text-font-size: 1rem;
+        }
+        
+        .sutras-nav-tabs {
+            display: flex;
+            gap: 0.5rem;
+            padding: 0.75rem;
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 55px; /* height of sticky-header */
+            z-index: 90;
+            overflow-x: auto;
+            white-space: nowrap;
+            scrollbar-width: none; /* Firefox */
+        }
+        .sutras-nav-tabs::-webkit-scrollbar {
+            display: none; /* Chrome/Safari */
+        }
+        
+        .nav-tab {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border-radius: 20px;
+            background-color: var(--bg-base);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        .nav-tab:hover, .nav-tab.active {
+            background-color: var(--accent);
+            color: #ffffff;
+            border-color: var(--accent);
+        }
+        
+        .chapter-container {
+            margin-top: 1rem;
+        }
+        
+        .chapter-header {
+            background-color: var(--bg-accent);
+            color: var(--accent);
+            padding: 0.75rem 1.25rem;
+            font-weight: 700;
+            font-size: 1.15rem;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 96px; /* height of sticky-header + nav-tabs */
+            z-index: 80;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .section-container {
+            margin: 1.5rem 0;
+        }
+        
+        .section-header {
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: 0.5rem 1.25rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+            border-left: 4px solid var(--accent);
+            background-color: rgba(217, 119, 6, 0.05);
+        }
+        
+        .verse-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            margin: 0 1.25rem 1.25rem 1.25rem;
+            padding: 1.25rem;
+            box-shadow: var(--shadow-sm);
+            transition: box-shadow var(--transition-fast);
+        }
+        .verse-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+        
+        .verse-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px dashed var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .verse-sanskrit {
+            font-size: var(--sutra-font-size);
+            color: var(--text-primary);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+        
+        .verse-transliteration {
+            font-size: var(--text-font-size);
+            color: var(--text-secondary);
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        
+        .verse-translation {
+            font-size: var(--text-font-size);
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+        
+        .verse-comments {
+            font-size: calc(var(--text-font-size) - 0.05rem);
+            color: var(--text-secondary);
+            background-color: var(--bg-base);
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+        .verse-comments svg {
+            width: 1.1rem;
+            height: 1.1rem;
+            flex-shrink: 0;
+            margin-top: 0.15rem;
+            color: var(--accent);
+        }
+        
+        /* Notes Section */
+        .verse-notes-wrapper {
+            margin-top: 0.75rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 0.75rem;
+        }
+        
+        .notes-header {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 0.35rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .notes-header svg {
+            width: 0.9rem;
+            height: 0.9rem;
+        }
+        
+        .notes-editor {
+            width: 100%;
+            min-height: 40px;
+            padding: 0.5rem;
+            font-size: calc(var(--text-font-size) - 0.05rem);
+            font-family: var(--font-sans);
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.375rem;
+            resize: vertical;
+            outline: none;
+            transition: border-color var(--transition-fast);
+        }
+        .notes-editor:focus {
+            border-color: var(--accent);
+        }
+        
+        /* Options Checklist inside Modal */
+        .option-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .option-row:last-child {
+            border-bottom: none;
+        }
+        .option-label {
+            font-weight: 500;
+            font-size: 0.95rem;
+            color: var(--text-primary);
+        }
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+        }
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            inset: 0;
+            background-color: var(--border-color);
+            transition: .3s;
+            border-radius: 24px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .3s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: var(--accent);
+        }
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+    </style>
+</head>
+<body>
+<div class="app-container">
+    <header class="sticky-header">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <a href="index.html" class="icon-btn" title="Back to Home">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/>
+                </svg>
+            </a>
+            <span class="font-eczar" style="font-weight: 700; font-size: 1.15rem; color: var(--text-primary);">Yoga Sutras</span>
+        </div>
+        
+        <div class="header-controls">
+            <!-- Font Control Buttons -->
+            <div style="display: flex; gap: 0.25rem;">
+                <button class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;" onclick="changeFontSize(-1)" title="Decrease text size">A-</button>
+                <button class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;" onclick="resetFontSize()" title="Reset text size">A</button>
+                <button class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;" onclick="changeFontSize(1)" title="Increase text size">A+</button>
+            </div>
+            
+            <!-- Dark Mode Toggle -->
+            <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle Theme">
+                <svg class="theme-toggle-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                </svg>
+                <svg class="theme-toggle-light" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                </svg>
+            </button>
+            
+            <!-- Settings Gear Button -->
+            <button class="icon-btn" onclick="openSettings()" aria-label="Layout Options">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.43l-1.003.828c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.43l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs for Parts/Chapters -->
+    <nav class="sutras-nav-tabs" id="navTabs">
+        <button class="nav-tab active" onclick="scrollToChapter(0)">Part 1: Samādhi Pāda</button>
+        <button class="nav-tab" onclick="scrollToChapter(1)">Part 2: Sadhāna Pāda</button>
+        <button class="nav-tab" onclick="scrollToChapter(2)">Part 3: Vibhūti Pāda</button>
+        <button class="nav-tab" onclick="scrollToChapter(3)">Part 4: Kaivalya Pāda</button>
+    </nav>
+
+    <!-- Sutras List Content -->
+    <main id="sutrasContent" style="flex: 1;">
+        <div style="padding: 2rem; text-align: center; color: var(--text-secondary);">
+            <p>Loading Yoga Sutras...</p>
+        </div>
+    </main>
+</div>
+
+<!-- Settings Layout Modal -->
+<div class="modal-overlay" id="settingsModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Show Layout Options</h3>
+            <button class="icon-btn" onclick="closeSettings()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="option-row">
+                <span class="option-label">Sutra Title (if present)</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="opt-showTitle" checked onchange="updateOptions()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="option-row">
+                <span class="option-label">Sanskrit Text</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="opt-showSanskrit" checked onchange="updateOptions()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="option-row">
+                <span class="option-label">IAST Transliteration</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="opt-showIAST" checked onchange="updateOptions()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="option-row">
+                <span class="option-label">English Translation</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="opt-showTranslation" checked onchange="updateOptions()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="option-row">
+                <span class="option-label">Comments (if present)</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="opt-showComments" checked onchange="updateOptions()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="option-row">
+                <span class="option-label">My Notes</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="opt-showNotes" checked onchange="updateOptions()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn" onclick="resetOptions()">Reset Defaults</button>
+            <button class="btn btn-accent" onclick="closeSettings()">Close</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    let sutrasData = [];
+    let activeSizeIndex = 2; // Default to base font size
+    const fontSizes = [
+        { sutra: '1.1rem', text: '0.85rem' },
+        { sutra: '1.25rem', text: '0.925rem' },
+        { sutra: '1.35rem', text: '1rem' },
+        { sutra: '1.5rem', text: '1.1rem' },
+        { sutra: '1.7rem', text: '1.2rem' }
+    ];
+
+    // Preferences Object
+    let preferences = {
+        showTitle: true,
+        showSanskrit: true,
+        showIAST: true,
+        showTranslation: true,
+        showComments: true,
+        showNotes: true
+    };
+
+    // Load initial configurations
+    document.addEventListener('DOMContentLoaded', () => {
+        // Load preferences
+        const savedPrefs = localStorage.getItem('sutraPrefs');
+        if (savedPrefs) {
+            preferences = JSON.parse(savedPrefs);
+            document.getElementById('opt-showTitle').checked = preferences.showTitle;
+            document.getElementById('opt-showSanskrit').checked = preferences.showSanskrit;
+            document.getElementById('opt-showIAST').checked = preferences.showIAST;
+            document.getElementById('opt-showTranslation').checked = preferences.showTranslation;
+            document.getElementById('opt-showComments').checked = preferences.showComments;
+            document.getElementById('opt-showNotes').checked = preferences.showNotes;
+        }
+
+        // Load size preference
+        const savedSize = localStorage.getItem('sutraFontSizeIndex');
+        if (savedSize !== null) {
+            activeSizeIndex = parseInt(savedSize, 10);
+        }
+        applyFontSize();
+
+        // Load data directly from window.sutrasData loaded via <script>
+        if (window.sutrasData && Array.isArray(window.sutrasData)) {
+            sutrasData = window.sutrasData;
+            renderSutras();
+            setupScrollObserver();
+        } else {
+            console.error("sutrasData not found on window.");
+            document.getElementById('sutrasContent').innerHTML = `
+                <div style="padding: 2rem; text-align: center; color: var(--accent);">
+                    <p>Error loading content. Please check if storage/sutras.js is loaded correctly.</p>
+                </div>
+            `;
+        }
+    });
+
+    // Theme toggler
+    function toggleTheme() {
+        const isDark = document.body.classList.toggle('dark');
+        document.documentElement.classList.toggle('dark', isDark);
+        localStorage.setItem('darkMode', isDark);
+    }
+
+    // Font Controls
+    function changeFontSize(direction) {
+        activeSizeIndex = Math.max(0, Math.min(fontSizes.length - 1, activeSizeIndex + direction));
+        applyFontSize();
+        localStorage.setItem('sutraFontSizeIndex', activeSizeIndex);
+    }
+
+    function resetFontSize() {
+        activeSizeIndex = 2;
+        applyFontSize();
+        localStorage.setItem('sutraFontSizeIndex', activeSizeIndex);
+    }
+
+    function applyFontSize() {
+        const selected = fontSizes[activeSizeIndex];
+        document.documentElement.style.setProperty('--sutra-font-size', selected.sutra);
+        document.documentElement.style.setProperty('--text-font-size', selected.text);
+    }
+
+    // Settings Modal Controls
+    function openSettings() {
+        document.getElementById('settingsModal').classList.add('active');
+    }
+
+    function closeSettings() {
+        document.getElementById('settingsModal').classList.remove('active');
+    }
+
+    function updateOptions() {
+        preferences.showTitle = document.getElementById('opt-showTitle').checked;
+        preferences.showSanskrit = document.getElementById('opt-showSanskrit').checked;
+        preferences.showIAST = document.getElementById('opt-showIAST').checked;
+        preferences.showTranslation = document.getElementById('opt-showTranslation').checked;
+        preferences.showComments = document.getElementById('opt-showComments').checked;
+        preferences.showNotes = document.getElementById('opt-showNotes').checked;
+
+        localStorage.setItem('sutraPrefs', JSON.stringify(preferences));
+        applyPreferences();
+    }
+
+    function resetOptions() {
+        document.getElementById('opt-showTitle').checked = true;
+        document.getElementById('opt-showSanskrit').checked = true;
+        document.getElementById('opt-showIAST').checked = true;
+        document.getElementById('opt-showTranslation').checked = true;
+        document.getElementById('opt-showComments').checked = true;
+        document.getElementById('opt-showNotes').checked = true;
+        updateOptions();
+    }
+
+    function applyPreferences() {
+        const setDisplay = (selector, isVisible) => {
+            document.querySelectorAll(selector).forEach(el => {
+                el.style.display = isVisible ? '' : 'none';
+            });
+        };
+        setDisplay('.verse-title-wrapper', preferences.showTitle);
+        setDisplay('.verse-sanskrit', preferences.showSanskrit);
+        setDisplay('.verse-transliteration', preferences.showIAST);
+        setDisplay('.verse-translation', preferences.showTranslation);
+        setDisplay('.verse-comments', preferences.showComments);
+        setDisplay('.verse-notes-wrapper', preferences.showNotes);
+    }
+
+    // Dynamic Render
+    function renderSutras() {
+        const container = document.getElementById('sutrasContent');
+        container.innerHTML = '';
+
+        sutrasData.forEach((chapter, chIdx) => {
+            const chapterDiv = document.createElement('div');
+            chapterDiv.className = 'chapter-container';
+            chapterDiv.id = `chapter-${chIdx}`;
+
+            // Chapter Title Bar
+            const chapHeader = document.createElement('div');
+            chapHeader.className = 'chapter-header';
+            chapHeader.innerHTML = `
+                <span>${chapter.title}</span>
+                <span style="font-size: 0.8rem; font-weight: normal; color: var(--text-muted);">Part ${chIdx + 1}</span>
+            `;
+            chapterDiv.appendChild(chapHeader);
+
+            // Process Sections
+            chapter.sections.forEach((section, secIdx) => {
+                const sectionDiv = document.createElement('div');
+                sectionDiv.className = 'section-container';
+
+                if (section.title) {
+                    const secHeader = document.createElement('div');
+                    secHeader.className = 'section-header';
+                    secHeader.textContent = section.title;
+                    sectionDiv.appendChild(secHeader);
+                }
+
+                // Process Verses
+                section.verses.forEach(verse => {
+                    const verseCard = document.createElement('article');
+                    verseCard.className = 'verse-card';
+                    verseCard.id = `verse-${verse.id.replace('.', '-')}`;
+
+                    // Metadata Row
+                    const metaRow = document.createElement('div');
+                    metaRow.className = 'verse-meta';
+                    
+                    const titleText = (verse.title && preferences.showTitle) ? verse.title : '';
+                    metaRow.innerHTML = `
+                        <span>Sutra ${verse.id}</span>
+                        <span class="verse-title-wrapper" style="${preferences.showTitle ? '' : 'display:none;'} font-weight: 500; color: var(--accent);">${titleText}</span>
+                    `;
+                    verseCard.appendChild(metaRow);
+
+                    // Devanagari Sanskrit
+                    if (verse.sanskrit) {
+                        const sanskritDiv = document.createElement('div');
+                        sanskritDiv.className = 'verse-sanskrit font-eczar';
+                        sanskritDiv.style.display = preferences.showSanskrit ? '' : 'none';
+                        sanskritDiv.textContent = verse.sanskrit;
+                        verseCard.appendChild(sanskritDiv);
+                    }
+
+                    // IAST Transliteration
+                    if (verse.transliteration) {
+                        const iastDiv = document.createElement('div');
+                        iastDiv.className = 'verse-transliteration';
+                        iastDiv.style.display = preferences.showIAST ? '' : 'none';
+                        iastDiv.textContent = verse.transliteration;
+                        verseCard.appendChild(iastDiv);
+                    }
+
+                    // Translation
+                    if (verse.translation) {
+                        const transDiv = document.createElement('div');
+                        transDiv.className = 'verse-translation';
+                        transDiv.style.display = preferences.showTranslation ? '' : 'none';
+                        transDiv.textContent = verse.translation;
+                        verseCard.appendChild(transDiv);
+                    }
+
+                    // Comments
+                    if (verse.comments) {
+                        const commentsDiv = document.createElement('div');
+                        commentsDiv.className = 'verse-comments';
+                        commentsDiv.style.display = preferences.showComments ? '' : 'none';
+                        commentsDiv.innerHTML = `
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                            </svg>
+                            <span>${verse.comments}</span>
+                        `;
+                        verseCard.appendChild(commentsDiv);
+                    }
+
+                    // Notes Section
+                    const savedNote = localStorage.getItem(verse.id) || '';
+                    const notesWrapper = document.createElement('div');
+                    notesWrapper.className = 'verse-notes-wrapper';
+                    notesWrapper.style.display = preferences.showNotes ? '' : 'none';
+                    notesWrapper.innerHTML = `
+                        <div class="notes-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                            </svg>
+                            <span>My Notes</span>
+                        </div>
+                        <textarea class="notes-editor" placeholder="Click to write a note..." oninput="saveNote('${verse.id}', this.value)">${savedNote}</textarea>
+                    `;
+                    verseCard.appendChild(notesWrapper);
+
+                    sectionDiv.appendChild(verseCard);
+                });
+
+                chapterDiv.appendChild(sectionDiv);
+            });
+
+            container.appendChild(chapterDiv);
+        });
+
+        // Apply display states initially
+        applyPreferences();
+    }
+
+    // Save notes to localStorage
+    function saveNote(verseId, value) {
+        if (value.trim() === '') {
+            localStorage.removeItem(verseId);
+        } else {
+            localStorage.setItem(verseId, value);
+        }
+    }
+
+    // Scroll to Chapter Anchor
+    function scrollToChapter(chIdx) {
+        const el = document.getElementById(`chapter-${chIdx}`);
+        if (el) {
+            const headerOffset = 100;
+            const elementPosition = el.getBoundingClientRect().top + window.scrollY;
+            const offsetPosition = elementPosition - headerOffset;
+            
+            const htmlEl = document.documentElement;
+            const bodyEl = document.body;
+            const prevHtmlBehavior = htmlEl.style.scrollBehavior;
+            const prevBodyBehavior = bodyEl.style.scrollBehavior;
+            
+            htmlEl.style.scrollBehavior = 'auto';
+            bodyEl.style.scrollBehavior = 'auto';
+            
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "auto"
+            });
+            
+            // Restore original scroll behavior after jump
+            setTimeout(() => {
+                htmlEl.style.scrollBehavior = prevHtmlBehavior;
+                bodyEl.style.scrollBehavior = prevBodyBehavior;
+            }, 0);
+        }
+    }
+
+    // Scroll Observer to highlight active Nav Tab
+    function setupScrollObserver() {
+        const chapters = document.querySelectorAll('.chapter-container');
+        const tabs = document.querySelectorAll('.nav-tab');
+
+        window.addEventListener('scroll', () => {
+            let activeIdx = 0;
+            const scrollPos = window.scrollY + 120; // adding offset
+
+            chapters.forEach((chap, idx) => {
+                if (scrollPos >= chap.offsetTop) {
+                    activeIdx = idx;
+                }
+            });
+
+            tabs.forEach((tab, idx) => {
+                tab.classList.toggle('active', idx === activeIdx);
+            });
+        });
+    }
+</script>
+</body>
+</html>
