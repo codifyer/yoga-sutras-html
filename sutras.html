@@ -571,7 +571,8 @@
                         const transDiv = document.createElement('div');
                         transDiv.className = 'verse-translation';
                         transDiv.style.display = preferences.showTranslation ? '' : 'none';
-                        transDiv.textContent = verse.translation;
+                        // transDiv.textContent = verse.translation;
+                        transDiv.innerHTML = verse.translation;
                         verseCard.appendChild(transDiv);
                     }
 

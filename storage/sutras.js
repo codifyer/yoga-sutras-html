@@ -55,7 +55,7 @@ window.sutrasData = [
                         "title": "The Five Modulations",
                         "sanskrit": "प्रमाणविपर्ययविकल्पनिद्रास्मृतयः",
                         "transliteration": "pramāṇa-viparyaya-vikalpa-nidrā-smṛtayaḥ",
-                        "translation": "The five modulations are",
+                        "translation": "The five modulations are: <ol class='left-margin'><li> प्रमाण / pramāṇa - wanting proof </li><li> विपर्यय / viparyaya - incorrect understanding / wrong perception </li><li> विकल्प / vikalpa - imagination / delusion </li><li> निद्रा / nidrā - sleep </li><li> स्मृति / smriti - memory </li> </ol>",
                         "comments": ""
                     },
                     {
@@ -63,7 +63,7 @@ window.sutrasData = [
                         "title": "Pramāṇa - Proof / Logic",
                         "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि",
                         "transliteration": "pratyakṣā-anumānā-agamāḥ pramāṇāni",
-                        "translation": "Pramāṇa (proof/logic) is sought in three ways",
+                        "translation": "Pramāṇa (proof/logic) is sought in three ways:  <ol class='left-margin'><li> प्रत्यक्ष / pratyakṣa - Experiential / direct perception </li><li> अनुमान / anumāna - Inference </li><li> आगम / āgama - (by authority of) scriptures (or some reliable source)</li> </ol>",
                         "comments": ""
                     },
                     {
@@ -267,7 +267,7 @@ window.sutrasData = [
                         "title": "The Nine Obstacles",
                         "sanskrit": "व्याधिस्त्यानसंशयप्रमादालस्याविरतिभ्रान्तिदर्शनालब्धभूमिकत्वानवस्थितत्वानि चित्तविक्षेपास्तेऽन्तरायाः",
                         "transliteration": "vyādhi-styāna-saṃśaya-pramād-ālasy-āvirati-bhrāntidarśan-ālabdhabhūmikatv-ānavasthitatvāni citta-vikṣepāste'ntarāyāḥ",
-                        "translation": "The obstacles or distractions in the practice of Yoga are:",
+                        "translation": "The obstacles or distractions in the practice of Yoga are: <ol class='left-margin'> <li>व्याधि / vyādhi - illness in the body</li> <li>स्त्यान / styāna - mental dullness</li> <li>संशय / saṃśaya - doubt</li>   <li>प्रमाद / pramāda - carelessness</li> <li>आलस्य / ālasya - laziness</li> <li>अविरति / avirati - obsessions</li> <li>भ्रान्ति दर्शन / bhrānti darśan - hallucinations</li> <li>अलब्ध भूमिकत्व / alabdh bhūmikatva - no experience in practice</li> <li>अनवस्थितत्वानि / anavasthitatvāni - instability</li> </ol>",
                         "comments": ""
                     },
                     {
@@ -275,7 +275,7 @@ window.sutrasData = [
                         "title": "",
                         "sanskrit": "दुःखदौर्मनस्याङ्गमेजयत्वश्वासप्रश्वासा विक्षेपसहभुवः",
                         "transliteration": "duḥkha-daurmanasy-āṅgamejayatva-śvāsa-praśvāsā vikṣepa-sahabhuvaḥ",
-                        "translation": "(The following) manifest along with the obstacles:",
+                        "translation": "(The following) manifest along with the obstacles: <ol class='left-margin'>  <li>दुःख / duḥkha - sorrow</li> <li>दौर्मनस्य / daurmanasya - bitterness</li> <li>अङ्गमेजयत्व / aṅgamejayatva - lack of control of the body</li> <li>श्वास प्रश्वास विक्षेप / śvāsa praśvāsa vikṣepa - Imbalance in breathing</li> </ol>",
                         "comments": ""
                     }
                 ]
@@ -296,7 +296,7 @@ window.sutrasData = [
                         "title": "",
                         "sanskrit": "मैत्रीकरुणामुदितोपेक्षणां सुखदुःखपुण्यापुण्यविषयाणां भावनातश्चित्तप्रसादनम्",
                         "transliteration": "maitrī-karuṇā-mudit-opekṣaṇāṃ sukha-duḥkha-puṇy-āpuṇya-viṣayāṇāṃ bhāvanātaś-citta-prasādanam",
-                        "translation": "We attain a pleasant state of mind by cultivating feelings of",
+                        "translation": "We attain a pleasant state of mind by cultivating feelings of: <ol class='left-margin'><li>मैत्रि / maitri - friendliness - towards those who are happy</li><li>करुणा / karuṇā - compassion - for those who are suffering</li><li>मुदिता / muditā - goodwill - towards those who are virtuous</li><li>उपेक्षा / upekhsā - indifference - towards the unethical.</li></ol>",
                         "comments": ""
                     },
                     {
@@ -484,7 +484,7 @@ window.sutrasData = [
                         "title": "",
                         "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः (पञ्च) क्लेशाः",
                         "transliteration": "avidy-āsmitā-rāga-dveṣ-ābhiniveśāḥ (pañca) kleśāḥ",
-                        "translation": "The five miseries are:",
+                        "translation": "The five miseries are: <ol class='left-margin'><li>अविद्या / avidyā - ignorance</li><li>अस्मिता / asmitā - i-ness (me, mine)</li><li>रागा / rāga - craving</li><li>द्वेषा / dveṣa - aversion</li><li>अभिनिवेशा / abhiniveśa - fear</li></ol>",
                         "comments": ""
                     },
                     {
@@ -712,7 +712,7 @@ window.sutrasData = [
                         "title": "The Eight Limbs",
                         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
                         "transliteration": "yama-niyam-āsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo'ṣṭāv-aṅgāni",
-                        "translation": "The eight limbs of Yoga are:",
+                        "translation": "The eight limbs of Yoga are: <ol class='left-margin'><li>यमा / yamā - rules of social conduct</li><li>नियमा / niyamā - rules of personal conduct</li><li>आसना / āsanā - body postures</li><li>प्राणायामा / prāṇāyāma - breath control</li><li>प्रत्याहारा / pratyāhāra - withdrawal of the senses</li><li>धारणा / dhāraṇā - focus of the mind</li><li>ध्याना / dhyānā - meditation</li><li>समाधि / samādhi</li></ol>",
                         "comments": ""
                     }
                 ]
@@ -725,7 +725,7 @@ window.sutrasData = [
                         "title": "Yamās",
                         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
                         "transliteration": "ahiṃsā-saty-āsteya-brahmacaryā-parigrahā yamāḥ",
-                        "translation": "The Yamās are:",
+                        "translation": "The Yamās are: <ol class='left-margin'><li>अहिंसा / ahiṃsā - non-violence</li><li>सत्या / satya - truth</li><li>अस्तेय / asteya - non-stealing</li><li>ब्रह्मचर्य / brahmacarya - chastity</li><li>अपरिग्रहा / aparigraha - non-accumulation</li></ol>",
                         "comments": ""
                     },
                     {
@@ -746,7 +746,7 @@ window.sutrasData = [
                         "title": "Niyamas",
                         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
                         "transliteration": "śauca-santoṣa-tapaḥ-svādhyāy-eśvara-praṇidhānāni niyamāḥ",
-                        "translation": "The Niyamās are:",
+                        "translation": "The Niyamās are: <ol class='left-margin'><li>शौच / śauca - purity / cleanliness</li><li>संतोष / santoṣa - contentment</li><li>तपः / tapaḥ - penance</li><li>स्वाघ्याय / svādhyāya - self study</li><li>ईश्वर प्रणिधाना / īśvara praṇidhānā - surrender to the Divine</li></ol>",
                         "comments": "The last three niyamās constitute Kriyā Yoga (2.1)"
                     },
                     {
@@ -754,7 +754,7 @@ window.sutrasData = [
                         "title": "",
                         "sanskrit": "वितर्कबाधने प्रतिपक्षभावनम्",
                         "transliteration": "vitarka-bādhane pratipakṣa-bhāvanam",
-                        "translation": "When negative thoughts obstruct the observance of yamās and niyamās, become aware of the consequences",
+                        "translation": "When negative thoughts obstruct the observance of yamās and niyamās, become aware of the consequences.",
                         "comments": ""
                     },
                     {
