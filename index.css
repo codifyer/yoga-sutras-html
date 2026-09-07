@@ -49,7 +49,7 @@ body.dark {
     --color-orange-medium: #fbbf24;
     --color-orange-dark: #f59e0b;
 
-    --accent: #fbbf24;
+    --accent: #c58f04; /*#fbbf24;*/
     --accent-hover: #f59e0b;
     --accent-bg: #451a03;
 
