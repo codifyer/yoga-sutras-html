@@ -1,20 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) --> 
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GX1XKWJQX5"></script>
     <script>
-        window.dataLayer = window.dataLayer || []; 
+        window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-GX1XKWJQX5');
     </script>
-    <!-- Google tag (gtag.js) --> 
+    <!-- Google tag (gtag.js) -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yoga Sutrā Notes - Catalog</title>
+    <title>Yoga Sutrā Notes - Verses</title>
     <link rel="shortcut icon" href="storage/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
     <script src="storage/sutras.js"></script>
@@ -29,7 +29,7 @@
             --sutra-font-size: 1.35rem;
             --text-font-size: 1rem;
         }
-        
+
         .sutras-nav-tabs {
             display: flex;
             gap: 0.5rem;
@@ -46,7 +46,7 @@
         .sutras-nav-tabs::-webkit-scrollbar {
             display: none; /* Chrome/Safari */
         }
-        
+
         .nav-tab {
             padding: 0.4rem 0.8rem;
             font-size: 0.85rem;
@@ -63,11 +63,11 @@
             color: #ffffff;
             border-color: var(--accent);
         }
-        
+
         .chapter-container {
             margin-top: 1rem;
         }
-        
+
         .chapter-header {
             background-color: var(--bg-accent);
             color: var(--accent);
@@ -83,11 +83,11 @@
             align-items: center;
             justify-content: space-between;
         }
-        
+
         .section-container {
             margin: 1.5rem 0;
         }
-        
+
         .section-header {
             font-size: 1.1rem;
             font-weight: 600;
@@ -97,7 +97,7 @@
             border-left: 4px solid var(--accent);
             background-color: rgba(217, 119, 6, 0.05);
         }
-        
+
         .verse-card {
             background-color: var(--bg-card);
             border: 1px solid var(--border-color);
@@ -110,7 +110,7 @@
         .verse-card:hover {
             box-shadow: var(--shadow-md);
         }
-        
+
         .verse-meta {
             display: flex;
             justify-content: space-between;
@@ -122,7 +122,7 @@
             font-weight: 600;
             font-size: 0.9rem;
         }
-        
+
         .verse-sanskrit {
             font-size: var(--sutra-font-size);
             color: var(--text-primary);
@@ -130,20 +130,20 @@
             margin-bottom: 0.5rem;
             line-height: 1.6;
         }
-        
+
         .verse-transliteration {
             font-size: var(--text-font-size);
             color: var(--text-secondary);
             font-style: italic;
             margin-bottom: 0.5rem;
         }
-        
+
         .verse-translation {
             font-size: var(--text-font-size);
             color: var(--text-primary);
             margin-bottom: 0.75rem;
         }
-        
+
         .verse-comments {
             font-size: calc(var(--text-font-size) - 0.05rem);
             color: var(--text-secondary);
@@ -162,14 +162,14 @@
             margin-top: 0.15rem;
             color: var(--accent);
         }
-        
+
         /* Notes Section */
         .verse-notes-wrapper {
             margin-top: 0.75rem;
             border-top: 1px solid var(--border-color);
             padding-top: 0.75rem;
         }
-        
+
         .notes-header {
             display: flex;
             align-items: center;
@@ -185,7 +185,7 @@
             width: 0.9rem;
             height: 0.9rem;
         }
-        
+
         .notes-editor {
             width: 100%;
             min-height: 40px;
@@ -203,7 +203,7 @@
         .notes-editor:focus {
             border-color: var(--accent);
         }
-        
+
         /* Options Checklist inside Modal */
         .option-row {
             display: flex;
@@ -269,7 +269,7 @@
             </a>
             <span class="font-eczar" style="font-weight: 700; font-size: 1.15rem; color: var(--text-primary);">Yoga Sutras</span>
         </div>
-        
+
         <div class="header-controls">
             <!-- Font Control Buttons -->
             <div style="display: flex; gap: 0.25rem;">
@@ -277,7 +277,7 @@
                 <button class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;" onclick="resetFontSize()" title="Reset text size">A</button>
                 <button class="btn" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;" onclick="changeFontSize(1)" title="Increase text size">A+</button>
             </div>
-            
+
             <!-- Dark Mode Toggle -->
             <button class="icon-btn" onclick="toggleTheme()" aria-label="Toggle Theme">
                 <svg class="theme-toggle-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -287,7 +287,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
                 </svg>
             </button>
-            
+
             <!-- Settings Gear Button -->
             <button class="icon-btn" onclick="openSettings()" aria-label="Layout Options">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -540,7 +540,7 @@
                     // Metadata Row
                     const metaRow = document.createElement('div');
                     metaRow.className = 'verse-meta';
-                    
+
                     const titleText = (verse.title && preferences.showTitle) ? verse.title : '';
                     metaRow.innerHTML = `
                         <span>Sutra ${verse.id}</span>
@@ -635,20 +635,20 @@
             const headerOffset = 100;
             const elementPosition = el.getBoundingClientRect().top + window.scrollY;
             const offsetPosition = elementPosition - headerOffset;
-            
+
             const htmlEl = document.documentElement;
             const bodyEl = document.body;
             const prevHtmlBehavior = htmlEl.style.scrollBehavior;
             const prevBodyBehavior = bodyEl.style.scrollBehavior;
-            
+
             htmlEl.style.scrollBehavior = 'auto';
             bodyEl.style.scrollBehavior = 'auto';
-            
+
             window.scrollTo({
                 top: offsetPosition,
                 behavior: "auto"
             });
-            
+
             // Restore original scroll behavior after jump
             setTimeout(() => {
                 htmlEl.style.scrollBehavior = prevHtmlBehavior;
