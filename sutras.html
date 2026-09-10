@@ -58,10 +58,17 @@
             cursor: pointer;
             transition: all var(--transition-fast);
         }
-        .nav-tab:hover, .nav-tab.active {
+        .nav-tab.active {
             background-color: var(--accent);
             color: #ffffff;
             border-color: var(--accent);
+        }
+        @media (hover: hover) {
+            .nav-tab:hover {
+                background-color: var(--accent);
+                color: #ffffff;
+                border-color: var(--accent);
+            }
         }
 
         .chapter-container {
@@ -107,8 +114,10 @@
             box-shadow: var(--shadow-sm);
             transition: box-shadow var(--transition-fast);
         }
-        .verse-card:hover {
-            box-shadow: var(--shadow-md);
+        @media (hover: hover) {
+            .verse-card:hover {
+                box-shadow: var(--shadow-md);
+            }
         }
 
         .verse-meta {
@@ -255,6 +264,53 @@
         }
         input:checked + .slider:before {
             transform: translateX(20px);
+        }
+
+        /* Anchor Links */
+        .anchor-link {
+            text-decoration: none;
+            color: inherit;
+            transition: all var(--transition-fast);
+            cursor: pointer;
+        }
+        @media (hover: hover) {
+            .anchor-link:hover {
+                text-decoration: underline;
+            }
+        }
+        @media (hover: none) {
+            .anchor-link {
+                border-bottom: 1px dotted var(--text-muted);
+            }
+        }
+
+        .copy-btn {
+            text-decoration: none;
+            color: var(--text-muted);
+            transition: all var(--transition-fast);
+            font-weight: normal;
+            font-size: 0.85em;
+            margin-left: 0.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+            padding: 0;
+            vertical-align: middle;
+        }
+        @media (hover: hover) {
+            .copy-btn:hover {
+                color: var(--accent);
+                background-color: var(--bg-accent);
+            }
+        }
+        .copy-btn.copied {
+            color: #10b981; /* Green */
         }
     </style>
 </head>
@@ -419,6 +475,8 @@
             sutrasData = window.sutrasData;
             renderSutras();
             setupScrollObserver();
+            // Handle initial deep link
+            handleHashScroll();
         } else {
             console.error("sutrasData not found on window.");
             document.getElementById('sutrasContent').innerHTML = `
@@ -427,6 +485,9 @@
                 </div>
             `;
         }
+
+        // Handle hash changes (e.g. clicking on anchor links)
+        window.addEventListener('hashchange', handleHashScroll);
     });
 
     // Theme toggler
@@ -500,6 +561,16 @@
         setDisplay('.verse-notes-wrapper', preferences.showNotes);
     }
 
+    function slugify(text) {
+        return text.toString().toLowerCase()
+            .replace(/ā/g, 'a')             // Replace ā with a
+            .replace(/\s+/g, '-')           // Replace spaces with -
+            .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+            .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+            .replace(/^-+/, '')             // Trim - from start of text
+            .replace(/-+$/, '');            // Trim - from end of text
+    }
+
     // Dynamic Render
     function renderSutras() {
         const container = document.getElementById('sutrasContent');
@@ -524,10 +595,37 @@
                 const sectionDiv = document.createElement('div');
                 sectionDiv.className = 'section-container';
 
+                let sectionId;
+                if (section.title) {
+                    // Remove brackets and content within them for the slug
+                    const titleForSlug = section.title.replace(/\[.*\]/, '');
+                    const slug = slugify(titleForSlug);
+                    const verses = section.verses;
+                    if (verses && verses.length > 0) {
+                        const firstVerse = verses[0].id;
+                        const lastVerse = verses[verses.length - 1].id;
+                        const lastNum = lastVerse.includes('.') ? lastVerse.split('.')[1] : lastVerse;
+                        sectionId = `${slug}-${firstVerse}-${lastNum}`;
+                    } else {
+                        sectionId = slug;
+                    }
+                } else {
+                    sectionId = `${chIdx + 1}-${secIdx + 1}`;
+                }
+                sectionDiv.id = sectionId;
+
                 if (section.title) {
                     const secHeader = document.createElement('div');
                     secHeader.className = 'section-header';
-                    secHeader.textContent = section.title;
+                    const visibleTitle = section.title.replace(/(\S)\[/, '$1 [');
+                    secHeader.innerHTML = `
+                        <a href="#${sectionId}" class="anchor-link">${visibleTitle}</a>
+                        <button class="copy-btn" onclick="copyLink('${sectionId}', this)" aria-label="Copy link to this section">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 0.85rem; height: 0.85rem;">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v8.25A2.25 2.25 0 0 0 6 16.5h2.25m8.25-8.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-7.5A2.25 2.25 0 0 1 8.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 0 0-2.25 2.25v6" />
+                            </svg>
+                        </button>
+                    `;
                     sectionDiv.appendChild(secHeader);
                 }
 
@@ -535,7 +633,8 @@
                 section.verses.forEach(verse => {
                     const verseCard = document.createElement('article');
                     verseCard.className = 'verse-card';
-                    verseCard.id = `verse-${verse.id.replace('.', '-')}`;
+                    const sutraHash = verse.id;
+                    verseCard.id = sutraHash;
 
                     // Metadata Row
                     const metaRow = document.createElement('div');
@@ -543,7 +642,14 @@
 
                     const titleText = (verse.title && preferences.showTitle) ? verse.title : '';
                     metaRow.innerHTML = `
-                        <span>Sutra ${verse.id}</span>
+                        <span>
+                            <a href="#${sutraHash}" class="anchor-link">Sutra ${verse.id}</a>
+                            <button class="copy-btn" onclick="copyLink('${sutraHash}', this)" aria-label="Copy link to this sutra">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 0.85rem; height: 0.85rem;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 8.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v8.25A2.25 2.25 0 0 0 6 16.5h2.25m8.25-8.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-7.5A2.25 2.25 0 0 1 8.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 0 0-2.25 2.25v6" />
+                                </svg>
+                            </button>
+                        </span>
                         <span class="verse-title-wrapper" style="${preferences.showTitle ? '' : 'display:none;'} font-weight: 500; color: var(--accent);">${titleText}</span>
                     `;
                     verseCard.appendChild(metaRow);
@@ -628,6 +734,27 @@
         }
     }
 
+    // Copy link to clipboard
+    function copyLink(hash, btn) {
+        const url = window.location.origin + window.location.pathname + '#' + hash;
+        navigator.clipboard.writeText(url).then(() => {
+            // Visual feedback
+            btn.classList.add('copied');
+            const originalIcon = btn.innerHTML;
+            btn.innerHTML = `
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 0.85rem; height: 0.85rem;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+            `;
+            setTimeout(() => {
+                btn.classList.remove('copied');
+                btn.innerHTML = originalIcon;
+            }, 2000);
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+    }
+
     // Scroll to Chapter Anchor
     function scrollToChapter(chIdx) {
         const el = document.getElementById(`chapter-${chIdx}`);
@@ -676,6 +803,28 @@
                 tab.classList.toggle('active', idx === activeIdx);
             });
         });
+    }
+
+    // Handle Deep Linking with Offset
+    function handleHashScroll() {
+        const hash = window.location.hash;
+        if (hash) {
+            // Tiny delay to ensure rendering is complete and browser has processed it
+            setTimeout(() => {
+                const targetId = hash.substring(1);
+                const el = document.getElementById(targetId);
+                if (el) {
+                    const headerOffset = 150; // sticky header (55) + tabs (41) + chapter header (~48) + extra
+                    const elementPosition = el.getBoundingClientRect().top + window.scrollY;
+                    const offsetPosition = elementPosition - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: "smooth"
+                    });
+                }
+            }, 100);
+        }
     }
 </script>
 </body>
